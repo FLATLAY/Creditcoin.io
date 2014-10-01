@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="auto_link_test.js" server="162.243.159.155//var/www/html/" local="130510300179260522" remote="130510312990000000" Dst="2" />
+<file name="contains_test.js" server="162.243.159.155//var/www/html/" local="130510300179300524" remote="130510312990000000" Dst="2" />
+<file name="convert_to_list_test.js" server="162.243.159.155//var/www/html/" local="130510300179330526" remote="130510312990000000" Dst="2" />
+<file name="copy_attributes_test.js" server="162.243.159.155//var/www/html/" local="130510300179370528" remote="130510312990000000" Dst="2" />
+<file name="copy_styles_test.js" server="162.243.159.155//var/www/html/" local="130510300179410530" remote="130510312990000000" Dst="2" />
+<file name="delegate_test.js" server="162.243.159.155//var/www/html/" local="130510300179450532" remote="130510312990000000" Dst="2" />
+<file name="get_as_dom_test.js" server="162.243.159.155//var/www/html/" local="130510300179490535" remote="130510312990000000" Dst="2" />
+<file name="get_parent_element_test.js" server="162.243.159.155//var/www/html/" local="130510300179530537" remote="130510312990000000" Dst="2" />
+<file name="get_style_test.js" server="162.243.159.155//var/www/html/" local="130510300179570539" remote="130510312990000000" Dst="2" />
+<file name="has_element_with_class_name_test.js" server="162.243.159.155//var/www/html/" local="130510300179610542" remote="130510312990000000" Dst="2" />
+<file name="has_element_with_tag_name_test.js" server="162.243.159.155//var/www/html/" local="130510300179650544" remote="130510312990000000" Dst="2" />
+<file name="insert_css_test.js" server="162.243.159.155//var/www/html/" local="130510300179690546" remote="130510312990000000" Dst="2" />
+<file name="observe_test.js" server="162.243.159.155//var/www/html/" local="130510300179740549" remote="130510313000000000" Dst="2" />
+<file name="parse_test.js" server="162.243.159.155//var/www/html/" local="130510300179780551" remote="130510313000000000" Dst="2" />
+<file name="rename_element_test.js" server="162.243.159.155//var/www/html/" local="130510300179830554" remote="130510313000000000" Dst="2" />
+<file name="resolve_list_test.js" server="162.243.159.155//var/www/html/" local="130510300179870556" remote="130510313000000000" Dst="2" />
+<file name="sandbox_test.js" server="162.243.159.155//var/www/html/" local="130510300179910559" remote="130510313000000000" Dst="2" />
+<file name="set_attributes_test.js" server="162.243.159.155//var/www/html/" local="130510300179950561" remote="130510313000000000" Dst="2" />
+<file name="set_styles_test.js" server="162.243.159.155//var/www/html/" local="130510300179990563" remote="130510313000000000" Dst="2" />
+</dwsync>

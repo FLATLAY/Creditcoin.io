@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="_alerts.scss" server="162.243.159.155//var/www/html/" local="130510300018801344" remote="130510308520000000" Dst="2" />
+<file name="_background-variant.scss" server="162.243.159.155//var/www/html/" local="130510300018841346" remote="130510308520000000" Dst="2" />
+<file name="_border-radius.scss" server="162.243.159.155//var/www/html/" local="130510300018891349" remote="130510308530000000" Dst="2" />
+<file name="_buttons.scss" server="162.243.159.155//var/www/html/" local="130510300018941352" remote="130510308530000000" Dst="2" />
+<file name="_center-block.scss" server="162.243.159.155//var/www/html/" local="130510300018981354" remote="130510308530000000" Dst="2" />
+<file name="_clearfix.scss" server="162.243.159.155//var/www/html/" local="130510300019031357" remote="130510308530000000" Dst="2" />
+<file name="_forms.scss" server="162.243.159.155//var/www/html/" local="130510300019071359" remote="130510308530000000" Dst="2" />
+<file name="_gradients.scss" server="162.243.159.155//var/www/html/" local="130510300019101361" remote="130510308530000000" Dst="2" />
+<file name="_grid-framework.scss" server="162.243.159.155//var/www/html/" local="130510300019141363" remote="130510308530000000" Dst="2" />
+<file name="_grid.scss" server="162.243.159.155//var/www/html/" local="130510300019181366" remote="130510308530000000" Dst="2" />
+<file name="_hide-text.scss" server="162.243.159.155//var/www/html/" local="130510300019221368" remote="130510308530000000" Dst="2" />
+<file name="_image.scss" server="162.243.159.155//var/www/html/" local="130510300019261370" remote="130510308530000000" Dst="2" />
+<file name="_labels.scss" server="162.243.159.155//var/www/html/" local="130510300019291372" remote="130510308530000000" Dst="2" />
+<file name="_list-group.scss" server="162.243.159.155//var/www/html/" local="130510300019331374" remote="130510308530000000" Dst="2" />
+<file name="_nav-divider.scss" server="162.243.159.155//var/www/html/" local="130510300019371376" remote="130510308540000000" Dst="2" />
+<file name="_nav-vertical-align.scss" server="162.243.159.155//var/www/html/" local="130510300019401378" remote="130510308540000000" Dst="2" />
+<file name="_opacity.scss" server="162.243.159.155//var/www/html/" local="130510300019441380" remote="130510308540000000" Dst="2" />
+<file name="_pagination.scss" server="162.243.159.155//var/www/html/" local="130510300020171422" remote="130510308540000000" Dst="2" />
+<file name="_panels.scss" server="162.243.159.155//var/www/html/" local="130510300020221425" remote="130510308540000000" Dst="2" />
+<file name="_progress-bar.scss" server="162.243.159.155//var/www/html/" local="130510300020261427" remote="130510308540000000" Dst="2" />
+<file name="_reset-filter.scss" server="162.243.159.155//var/www/html/" local="130510300020311430" remote="130510308540000000" Dst="2" />
+<file name="_resize.scss" server="162.243.159.155//var/www/html/" local="130510300020351432" remote="130510308540000000" Dst="2" />
+<file name="_responsive-visibility.scss" server="162.243.159.155//var/www/html/" local="130510300020391435" remote="130510308540000000" Dst="2" />
+<file name="_size.scss" server="162.243.159.155//var/www/html/" local="130510300020431437" remote="130510308540000000" Dst="2" />
+<file name="_tab-focus.scss" server="162.243.159.155//var/www/html/" local="130510300020471439" remote="130510308540000000" Dst="2" />
+<file name="_table-row.scss" server="162.243.159.155//var/www/html/" local="130510300020511442" remote="130510308550000000" Dst="2" />
+<file name="_text-emphasis.scss" server="162.243.159.155//var/www/html/" local="130510300020701452" remote="130510308550000000" Dst="2" />
+<file name="_text-overflow.scss" server="162.243.159.155//var/www/html/" local="130510300020751455" remote="130510308550000000" Dst="2" />
+<file name="_vendor-prefixes.scss" server="162.243.159.155//var/www/html/" local="130510300020801458" remote="130510308550000000" Dst="2" />
+</dwsync>
