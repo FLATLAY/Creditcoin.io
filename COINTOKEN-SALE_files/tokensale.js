@@ -603,7 +603,7 @@ jQuery(function () {
               ],
 
         // init contract object    
-        contractAddress = "0x63b992e6246d88f07fc35a056d2c365e6d441a3d",
+        contractAddress = "0x1F870a147029E7dC2AB06A700EAB1803688aC65E",
         contractInstance = new web3.eth.Contract(abi, contractAddress),
 
         // init
@@ -611,7 +611,7 @@ jQuery(function () {
         tokensSold = 0,
 
         // constant
-        ratio = 450,
+        ratio = 1000,
         decimals = Math.pow(10, 18),
 
         // functions
@@ -620,7 +620,7 @@ jQuery(function () {
 
     updateContribAmount = function () {
         var contrib_eth = jQuery("#spinner").val(),
-            contrib_amount = contrib_eth * 450,
+            contrib_amount = contrib_eth * 1000,
             contrib_bonus = 0;
 
         jQuery(".contrib_eth").text(contrib_eth);

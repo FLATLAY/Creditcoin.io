@@ -949,6 +949,7 @@ width:100%;
 .home-timer-section .countdown-b{
     width: 600px;
     display: inline-block;
+    margin-bottom: 40px
 }
 .home-timer-section h2{
     font-family: 'Circular Std Book';
