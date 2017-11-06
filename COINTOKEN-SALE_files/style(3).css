@@ -93,7 +93,7 @@ opacity:0 !important;
     position:absolute;
     left:50%; /* centers the loading animation horizontally one the screen */
     top:50%; /* centers the loading animation vertically one the screen */
-    background-image:url(/wp-content/uploads/2017/07/preloader-1.gif); /* path to your loading animation */
+    background-image:url(https://soma.co/wp-content/uploads/2017/07/preloader-1.gif); /* path to your loading animation */
     background-repeat:no-repeat;
     background-position:center;
     margin:-100px 0 0 -100px; /* is width and height divided by two */
@@ -101,43 +101,43 @@ opacity:0 !important;
 
 
 @font-face {
-    font-family:'Brandon Grotesque Regular';
-    src: url('/wp-content/themes/px8/fonts/BrandonGrotesque-Regular.eot');
-    src: url('/wp-content/themes/px8/fonts/BrandonGrotesque-Regular.eot?#iefix') format('embedded-opentype'),
-        url('/wp-content/themes/px8/fonts/BrandonGrotesque-Regular.woff2') format('woff2'),
-        url('/wp-content/themes/px8/fonts/BrandonGrotesque-Regular.woff') format('woff'),
-        url('/wp-content/themes/px8/fonts/BrandonGrotesque-Regular.svg#BrandonGrotesque-Regular') format('svg');
+    font-family:'Montserrat';
+    src: url('https://soma.co/wp-content/themes/px8/fonts/BrandonGrotesque-Regular.eot');
+    src: url('https://soma.co/wp-content/themes/px8/fonts/BrandonGrotesque-Regular.eot?#iefix') format('embedded-opentype'),
+        url('https://soma.co/wp-content/themes/px8/fonts/BrandonGrotesque-Regular.woff2') format('woff2'),
+        url('https://soma.co/wp-content/themes/px8/fonts/BrandonGrotesque-Regular.woff') format('woff'),
+        url('https://soma.co/wp-content/themes/px8/fonts/BrandonGrotesque-Regular.svg#BrandonGrotesque-Regular') format('svg');
     font-weight: 390;
     font-style: normal;
     font-stretch: normal;
     unicode-range: U+0020-00FE;
 }
 @font-face {
-    font-family:'Brandon Grotesque Bold';
-    src: url('/wp-content/themes/px8/fonts/BrandonGrotesque-Bold.eot');
-    src: url('/wp-content/themes/px8/fonts/BrandonGrotesque-Bold.eot?#iefix') format('embedded-opentype'),
-        url('/wp-content/themes/px8/fonts/BrandonGrotesque-Bold.woff2') format('woff2'),
-        url('/wp-content/themes/px8/fonts/BrandonGrotesque-Bold.woff') format('woff'),
-        url('/wp-content/themes/px8/fonts/BrandonGrotesque-Bold.svg#BrandonGrotesque-Regular') format('svg');
+    font-family:'Montserrat';
+    src: url('https://soma.co/wp-content/themes/px8/fonts/BrandonGrotesque-Bold.eot');
+    src: url('https://soma.co/wp-content/themes/px8/fonts/BrandonGrotesque-Bold.eot?#iefix') format('embedded-opentype'),
+        url('https://soma.co/wp-content/themes/px8/fonts/BrandonGrotesque-Bold.woff2') format('woff2'),
+        url('https://soma.co/wp-content/themes/px8/fonts/BrandonGrotesque-Bold.woff') format('woff'),
+        url('https://soma.co/wp-content/themes/px8/fonts/BrandonGrotesque-Bold.svg#BrandonGrotesque-Regular') format('svg');
     font-weight: 450;
     font-style: normal;
     font-stretch: normal;
     unicode-range: U+0020-00FE;
 }
 @font-face {
-    font-family:'Circular Std Book';
-    src: url('/wp-content/themes/px8/fonts/CircularStd-Book.eot');
-    src: url('/wp-content/themes/px8/fonts/CircularStd-Book.eot?#iefix') format('embedded-opentype'),
-        url('/wp-content/themes/px8/fonts/CircularStd-Book.woff2') format('woff2'),
-        url('/wp-content/themes/px8/fonts/CircularStd-Book.woff') format('woff'),
-        url('/wp-content/themes/px8/fonts/CircularStd-Book.svg#CircularStd-Book') format('svg');
+    font-family:'Montserrat';
+    src: url('https://soma.co/wp-content/themes/px8/fonts/CircularStd-Book.eot');
+    src: url('https://soma.co/wp-content/themes/px8/fonts/CircularStd-Book.eot?#iefix') format('embedded-opentype'),
+        url('https://soma.co/wp-content/themes/px8/fonts/CircularStd-Book.woff2') format('woff2'),
+        url('https://soma.co/wp-content/themes/px8/fonts/CircularStd-Book.woff') format('woff'),
+        url('https://soma.co/wp-content/themes/px8/fonts/CircularStd-Book.svg#CircularStd-Book') format('svg');
     font-weight: 450;
     font-style: normal;
     font-stretch: normal;
     unicode-range: U+0020-00FE;
 }
 *{
-    font-family: Brandon Grotesque Regular ,sans-serif;
+    font-family: Montserrat ,sans-serif;
 }
 input:focus,
 select:focus,
@@ -166,7 +166,7 @@ body.modal-open {
     border-radius: 50px;
     font-size: 18px;
     padding: 12px 30px;
-    font-family:'Circular Std Book';
+    font-family:'Montserrat';
     min-width: 170px;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active{
@@ -182,7 +182,7 @@ body.modal-open {
     border-radius: 50px;
     font-size: 18px;
     padding: 12px 30px;
-    font-family:'Circular Std Book';
+    font-family:'Montserrat';
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
     min-width: 170px;
 }
@@ -198,7 +198,7 @@ body.modal-open {
     border-radius: 50px;
     font-size: 18px;
     padding: 12px 35px;
-    font-family:'Circular Std Book';
+    font-family:'Montserrat';
     min-width: 170px;
 }
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active{
@@ -299,19 +299,19 @@ Social icons
     margin: 0 9px;
 }
 .social-icons .social-icons-item.slack{
-    background: url(/wp-content/uploads/2017/07/Slack_Mark_Monochrome_Black.png) no-repeat center;
+    background: url(https://soma.co/wp-content/uploads/2017/07/Slack_Mark_Monochrome_Black.png) no-repeat center;
     background-size: 34px auto;
 }
 .social-icons .social-icons-item.twitter{
-    background: url(/wp-content/uploads/2017/07/iconmonstr-twitter-4.png) no-repeat 0 0;
+    background: url(https://soma.co/wp-content/uploads/2017/07/iconmonstr-twitter-4.png) no-repeat 0 0;
     background-size: 35px auto;
 }
 .social-icons .social-icons-item.fb{
-    background: url(/wp-content/uploads/2017/07/iconmonstr-facebook-4.png) no-repeat 0 0;
+    background: url(https://soma.co/wp-content/uploads/2017/07/iconmonstr-facebook-4.png) no-repeat 0 0;
     background-size: 35px auto;
 }
 .social-icons .social-icons-item.github{
-    background: url(/wp-content/uploads/2017/07/iconmonstr-github-1.png) no-repeat 0 0;
+    background: url(https://soma.co/wp-content/uploads/2017/07/iconmonstr-github-1.png) no-repeat 0 0;
     background-size: 36px auto;
 }
 
@@ -372,26 +372,26 @@ Header
     margin: 0 9px;
 }
 .header .social-icons .social-icons-item.slack{
-    background: url(/wp-content/uploads/2017/07/Slack_Mark_Monochrome_Black-w.png) no-repeat center;
+    background: url(https://soma.co/wp-content/uploads/2017/07/Slack_Mark_Monochrome_Black-w.png) no-repeat center;
     background-size: 25px auto;
 }
 .header .social-icons .social-icons-item.twitter{
-    background: url(/wp-content/uploads/2017/07/iconmonstr-twitter-4-w.png) no-repeat 0 0;
+    background: url(https://soma.co/wp-content/uploads/2017/07/iconmonstr-twitter-4-w.png) no-repeat 0 0;
     background-size: 25px auto;
 }
 .header .social-icons .social-icons-item.fb{
-    background: url(/wp-content/uploads/2017/07/iconmonstr-facebook-4-w.png) no-repeat 0 0;
+    background: url(https://soma.co/wp-content/uploads/2017/07/iconmonstr-facebook-4-w.png) no-repeat 0 0;
     background-size: 25px auto;
 }
 .header .social-icons .social-icons-item.github{
-    background: url(/wp-content/uploads/2017/07/iconmonstr-github-1-w.png) no-repeat 0 0;
+    background: url(https://soma.co/wp-content/uploads/2017/07/iconmonstr-github-1-w.png) no-repeat 0 0;
     background-size: 26px auto;
 }
 .header .navbar .menu li a{
     padding: 16px 18px;
     font-size: 16px;
     color: #fff;
-    font-family:'Circular Std Book';
+    font-family:'Montserrat';
 }
 .header .navbar .menu li.current-menu-item.menu-item-type-post_type a{
     border-radius: 50px;
@@ -406,7 +406,7 @@ Frontpage
 ====================================================================
 */
 .home-hero-section{
-    background: #27496c url(/wp-content/uploads/2017/08/soma-hero.jpg) no-repeat center;  
+    background: #27496c url(https://soma.co/wp-content/uploads/2017/08/soma-hero.jpg) no-repeat center;  
     background-size: cover;
     background-color: rgba(39, 73, 108, 0.9);
     text-align: center;    
@@ -421,14 +421,14 @@ Frontpage
     font-size: 17px;
     color: #b4b8c8;
     margin-bottom: 35px;
-    font-family:'Circular Std Book';  
+    font-family:'Montserrat';  
 }
 .home-hero-section .btn{
     margin: 0 20px 10px 20px;
 }
 .soma-logo{
     border-radius: 30px;
-    background: #fff url(/wp-content/uploads/2017/08/soma-app-icon.jpg) no-repeat center;
+    background: #fff url(https://soma.co/wp-content/uploads/2017/08/soma-app-icon.jpg) no-repeat center;
     background-size: 139px auto;
     width: 139px; 
     height: 139px;
@@ -460,7 +460,7 @@ Frontpage
     border-radius: 50px;
     font-size: 13px;
     padding: 10px 20px 10px 50px;
-    font-family:'Circular Std Book';  
+    font-family:'Montserrat';  
     opacity: 0.5;
 }
 .home-features-section .nav-tabs li.active a{
@@ -479,19 +479,19 @@ Frontpage
     text-align: left;
 }
 .home-features-section .nav-tabs .tab1{
-    background: url(/wp-content/uploads/2017/07/Interactive-Item-Card.png) no-repeat left 15px top 8px !important;
+    background: url(https://soma.co/wp-content/uploads/2017/07/Interactive-Item-Card.png) no-repeat left 15px top 8px !important;
     background-size: 22px auto !important;
 }
 .home-features-section .nav-tabs .tab2{
-    background: url(/wp-content/uploads/2017/07/Secured-identity.png) no-repeat left 14px top 9px !important;
+    background: url(https://soma.co/wp-content/uploads/2017/07/Secured-identity.png) no-repeat left 14px top 9px !important;
     background-size: 26px auto !important;   
 }
 .home-features-section .nav-tabs .tab3{
-    background: url(/wp-content/uploads/2017/07/Fast-and-secure-transactions.png) no-repeat left 16px top 6px !important;
+    background: url(https://soma.co/wp-content/uploads/2017/07/Fast-and-secure-transactions.png) no-repeat left 16px top 6px !important;
     background-size: 23px auto !important;
 }
 .home-features-section .nav-tabs .tab4{
-    background: url(/wp-content/uploads/2017/07/P2P-marketing.png) no-repeat left 15px top 6px !important;
+    background: url(https://soma.co/wp-content/uploads/2017/07/P2P-marketing.png) no-repeat left 15px top 6px !important;
     background-size: 25px auto !important;  
 }
 .home-features-section .tab-content .row{
@@ -516,7 +516,7 @@ overflow:hidden;
     padding: 18px 50px;
 }
 .home-how-it-works-section .video{
-    background: #27496c url(/wp-content/uploads/2017/07/group-27@3x.png) no-repeat center;
+    background: #27496c url(https://soma.co/wp-content/uploads/2017/07/group-27@3x.png) no-repeat center;
     background-size: 355px auto;
     border-radius: 15px;
     width: 795px;
@@ -526,7 +526,7 @@ overflow:hidden;
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
 }
 .home-how-it-works-section .video a {
-    background: url(/wp-content/uploads/2017/07/play-btn.png) no-repeat center;
+    background: url(https://soma.co/wp-content/uploads/2017/07/play-btn.png) no-repeat center;
     background-size: 115px auto;
     display: inline-block;
     width: 115px;
@@ -567,17 +567,17 @@ width:100%;
     top: 45%;
 }
 .home-how-it-works-section .hiw-slider .slick-arrow.slick-prev {
-    background: url(/wp-content/uploads/2017/07/arrow-l.png) no-repeat 0 0;
+    background: url(https://soma.co/wp-content/uploads/2017/07/arrow-l.png) no-repeat 0 0;
     background-size: 15px auto;
     left: -30px;
 }
 .home-how-it-works-section .hiw-slider .slick-arrow.slick-next {
-    background: url(/wp-content/uploads/2017/07/arrow.png) no-repeat 0 0;
+    background: url(https://soma.co/wp-content/uploads/2017/07/arrow.png) no-repeat 0 0;
     background-size: 15px auto;
     right: -30px;
 }
 .home-what-is-soma-section-bg{
-    background: url(/wp-content/uploads/2017/07/soma_section.gif) no-repeat top right; 
+    background: url(https://soma.co/wp-content/uploads/2017/07/soma_section.gif) no-repeat top right; 
     background-size: 560px auto;
 }
 .home-what-is-soma-section{
@@ -597,7 +597,7 @@ width:100%;
     color: #8794a2;
     border-radius: 12px; 
     font-size: 18px;
-    font-family:'Circular Std Book'; 
+    font-family:'Montserrat'; 
     text-align: left;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
     width: 260px;
@@ -605,20 +605,20 @@ width:100%;
 }
 .home-what-is-soma-section .btn-app-store div{
     color: #27496c;
-    font-family:'Circular Std Book'; 
+    font-family:'Montserrat'; 
 }
 .home-what-is-soma-section .btn-app-store.ios{
-    background: #fff url(/wp-content/uploads/2017/07/iconmonstr-apple-os-1.png) no-repeat right 20px top 14px;
+    background: #fff url(https://soma.co/wp-content/uploads/2017/07/iconmonstr-apple-os-1.png) no-repeat right 20px top 14px;
     background-size: 35px auto;
 }
 .home-what-is-soma-section .btn-app-store.android{
-    background: #fff url(/wp-content/uploads/2017/07/iconmonstr-android-os-1.png) no-repeat right 20px top 14px;
+    background: #fff url(https://soma.co/wp-content/uploads/2017/07/iconmonstr-android-os-1.png) no-repeat right 20px top 14px;
     background-size: 35px auto;
     opacity: 0.5;
     cursor: default;
 }
 .home-what-is-soma-section .home-what-is-soma-bg{
-    background: url(/wp-content/uploads/2017/07/soma_section.gif) no-repeat right -40px;
+    background: url(https://soma.co/wp-content/uploads/2017/07/soma_section.gif) no-repeat right -40px;
     background-size: 550px auto;
 }
 .home-what-is-soma-section p{
@@ -689,17 +689,17 @@ width:100%;
     border: 0;    
 }
 .home-aple-release-section .slick-arrow.slick-prev{
-    background: #fff url(/wp-content/uploads/2017/07/arrow-left.png) no-repeat 0 0;
+    background: #fff url(https://soma.co/wp-content/uploads/2017/07/arrow-left.png) no-repeat 0 0;
     background-size: 30px auto;   
 }
 .home-aple-release-section .slick-arrow.slick-next{
-    background: #fff url(/wp-content/uploads/2017/07/arrow-right.png) no-repeat 0 0;
+    background: #fff url(https://soma.co/wp-content/uploads/2017/07/arrow-right.png) no-repeat 0 0;
     background-size: 30px auto;    
 }
 .home-aple-release-section .slick-dots li button::before{
     position: absolute;
     font-size: 15px;
-    font-family:'Circular Std Book';
+    font-family:'Montserrat';
     color: #8794a2;
     top: 0;
     left: 0;
@@ -730,7 +730,7 @@ width:100%;
 .home-aple-release-section .q1-image{
     width: 87%;
     height: 216px;
-    background: url(/wp-content/uploads/2017/07/erik-eastman-293362.jpg) no-repeat center;
+    background: url(https://soma.co/wp-content/uploads/2017/07/erik-eastman-293362.jpg) no-repeat center;
     background-size: cover;  
     border-radius: 15px;
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
@@ -764,12 +764,12 @@ width:100%;
     background-size: 22px auto;
 }
 .home-team-section .team-item .name{
-    font-family:'Circular Std Book';
+    font-family:'Montserrat';
     color: #1c222b;
     font-size: 14px;
 }
 .home-team-section .team-item .position{
-    font-family:'Circular Std Book';
+    font-family:'Montserrat';
     color: #94a8bb;
     font-size: 12px;
 }
@@ -786,7 +786,7 @@ width:100%;
     background: #fff;
     color: #fd4145;
     font-size: 12px;  
-    font-family: 'Circular Std Book';  
+    font-family: 'Montserrat';  
     padding: 5px 10px;
     width: 100%;
     min-width: initial;
@@ -868,19 +868,19 @@ width:100%;
     width: 15px;
     height: 28px; 
     display: block;
-    background: url(/wp-content/uploads/2017/07/arrow.png) no-repeat 0 0;
+    background: url(https://soma.co/wp-content/uploads/2017/07/arrow.png) no-repeat 0 0;
     background-size: 15px auto;  
     position: absolute;
     top: 40%;
     right: -50px;    
 }
 .home-team-section .slick-arrow.slick-prev {
-    background: url(/wp-content/uploads/2017/07/arrow-l.png) no-repeat 0 0;
+    background: url(https://soma.co/wp-content/uploads/2017/07/arrow-l.png) no-repeat 0 0;
     background-size: 15px auto;
     left: -30px;
 }
 .home-team-section .slick-arrow.slick-next {
-    background: url(/wp-content/uploads/2017/07/arrow.png) no-repeat 0 0;
+    background: url(https://soma.co/wp-content/uploads/2017/07/arrow.png) no-repeat 0 0;
     background-size: 15px auto;
     right: -30px;
 }
@@ -933,7 +933,7 @@ width:100%;
     background: none;
     border: 0;
     text-shadow: none;
-    font-family:'Brandon Grotesque Regular';
+    font-family:'Montserrat';
     font-size: 60px;
     color: #27496c;
     width: 38px;
@@ -941,7 +941,7 @@ width:100%;
     line-height: 1.0;
 }
 .home-timer-section .cloud-city-dash_title{
-    font-family: 'Circular Std Book';
+    font-family: 'Montserrat';
     text-transform: uppercase;
     font-size: 10px;
     color: #cbd0d8;
@@ -952,7 +952,7 @@ width:100%;
     margin-bottom: 40px
 }
 .home-timer-section h2{
-    font-family: 'Circular Std Book';
+    font-family: 'Montserrat';
     font-size: 19px;
     margin-bottom: 0;
 }
@@ -1126,7 +1126,7 @@ Presale
     font-size: 18px;
     color: #27496c;
     text-transform: uppercase;
-    font-family: 'Circular Std Book';
+    font-family: 'Montserrat';
     width: 120px;
     text-align: center;
     height: 50px;
@@ -1137,7 +1137,7 @@ Presale
     font-size: 18px;
     color: #27496c;
     text-transform: uppercase;
-    font-family: 'Circular Std Book';
+    font-family: 'Montserrat';
     border: none;
     height: 50px;
     width: 320px;
@@ -1172,7 +1172,7 @@ Presale
     top: 10px;
     left: 20px;
     font-size: 22px;
-    font-family: 'Circular Std Book';
+    font-family: 'Montserrat';
     color: #27496c;
 }
 .presale-section .presale-form .ui-spinner a.ui-spinner-down:after{
@@ -1181,7 +1181,7 @@ Presale
     top: 10px;
     left: 20px;
     font-size: 22px;
-    font-family: 'Circular Std Book';
+    font-family: 'Montserrat';
     color: #27496c;
 }
 .presale-section .presale-form .ui-spinner a.ui-spinner-button span{
@@ -1216,7 +1216,7 @@ Presale
     background: none;
     border: 0;
     text-shadow: none;
-    font-family:'Brandon Grotesque Regular';
+    font-family:'Montserrat';
     font-size: 32px;
     color: #fff;
     width: 22px;
@@ -1224,7 +1224,7 @@ Presale
     line-height: 1.0;
 }
 .page-template-presale-page .data-3 .cloud-city-dash_title{
-    font-family: 'Circular Std Book';
+    font-family: 'Montserrat';
     text-transform: uppercase;
     font-size: 8px;
 color: #fff;
@@ -1283,7 +1283,7 @@ Modals
 }
 .modal-dialog button.close{
     border: solid 2px #27496c;
-    background: url(/wp-content/uploads/2017/07/close-cross.png) no-repeat center;
+    background: url(https://soma.co/wp-content/uploads/2017/07/close-cross.png) no-repeat center;
     background-size: 20px 20px;
     width: 46px;
     height: 46px; 
@@ -1291,7 +1291,7 @@ Modals
     color: #27496c;
     font-size: 50px;
     border-radius: 50px;
-    font-family: 'Brandon Grotesque Regular';
+    font-family: 'Montserrat';
     font-weight: normal;
     margin: 18px 18px 0 0;
     padding: 0;
@@ -1329,7 +1329,7 @@ Modals
     background: none;
     border: 0;
     text-shadow: none;
-    font-family:'Brandon Grotesque Regular';
+    font-family:'Montserrat';
     font-size: 60px;
     color: #27496c;
     width: 38px;
@@ -1337,7 +1337,7 @@ Modals
     line-height: 1.0;
 }
 .modal-token-sale .cloud-city-dash_title{
-    font-family: 'Circular Std Book';
+    font-family: 'Montserrat';
     text-transform: uppercase;
     font-size: 10px;
     color: #cbd0d8;
@@ -1347,13 +1347,13 @@ Modals
     display: inline-block;
 }
 .modal-token-sale h2{
-    font-family:'Brandon Grotesque Regular';
+    font-family:'Montserrat';
     font-size: 30px;
     margin-bottom: 70px;
     color: #27496c;
 }
 .modal-token-sale h4{
-    font-family: 'Circular Std Book';
+    font-family: 'Montserrat';
     font-size: 19px;
     margin-bottom: 0;
     color: #27496c;
@@ -1398,7 +1398,7 @@ Modals
     text-align: left;
     font-size: 20px;
     color: #ff3d40;
-    font-family:'Brandon Grotesque Regular';
+    font-family:'Montserrat';
     padding: 10px 25px 0 25px;
 }
 .modal-agreement .modal-content{
@@ -1479,7 +1479,7 @@ Modals
     border: 2px solid #27496c !important;  
 }
 .modal-agreement .ui-state-active .ui-icon{
-    background: #27496c url(/wp-content/uploads/2017/07/checked@2x.png) no-repeat center !important; 
+    background: #27496c url(https://soma.co/wp-content/uploads/2017/07/checked@2x.png) no-repeat center !important; 
     background-size: 36px 36px !important; 
 }
 .modal-agreement h3{
@@ -1544,7 +1544,7 @@ Modals
     text-align: left;
     font-size: 20px;
     color: #ff3d40;
-    font-family:'Brandon Grotesque Regular';
+    font-family:'Montserrat';
     padding: 5px 25px 30px 25px;
 }
 .modal-agreement .checkboxes-b{
@@ -1560,7 +1560,7 @@ Modals
     text-align: left;
     font-size: 20px;
     color: #ff3d40;
-    font-family:'Brandon Grotesque Regular';
+    font-family:'Montserrat';
     padding: 0 25px 0 15px;
 }
 .modal .wpcf7-mail-sent-ok{
@@ -1596,7 +1596,7 @@ Modals
     margin-bottom: 20px;
 }
 .modal-agreement .step-2 .form-b .row .col-sm-4:nth-last-child(1){
-    font-family:'Brandon Grotesque Bold';
+    font-family:'Montserrat';
     color: #27496c;
 }
 .modal-agreement .step-2 .form-b .row .col-sm-4:nth-last-child(1) h5{
