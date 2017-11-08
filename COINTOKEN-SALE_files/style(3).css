@@ -212,7 +212,7 @@ body.modal-open {
     padding: 60px 0 80px 0;
 }
 .dark-bg{
-    background: #27496c;
+    background: rgba(0,0,0,0.7);
     color: #fff;
 }
 .dark-bg .container{
@@ -339,6 +339,9 @@ Header
     background: none;
     border: 0;
     font-size: 0;
+    position: absolute;
+    right: 0;
+    width: 100%;
 }
 .header .navbar .menu{
     list-style: none;
@@ -406,9 +409,9 @@ Frontpage
 ====================================================================
 */
 .home-hero-section{
-    background: #27496c url(https://soma.co/wp-content/uploads/2017/08/soma-hero.jpg) no-repeat center;  
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), black url(./background.jpg) no-repeat center;  
     background-size: cover;
-    background-color: rgba(39, 73, 108, 0.9);
+    background-color: rgba(0, 0, 0, 0.7);
     text-align: center;    
     color: #fff;    
     padding: 220px 0 300px 0;
