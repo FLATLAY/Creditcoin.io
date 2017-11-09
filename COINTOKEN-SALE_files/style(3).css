@@ -99,43 +99,6 @@ opacity:0 !important;
     margin:-100px 0 0 -100px; /* is width and height divided by two */
 }
 
-
-@font-face {
-    font-family:'Montserrat';
-    src: url('https://soma.co/wp-content/themes/px8/fonts/BrandonGrotesque-Regular.eot');
-    src: url('https://soma.co/wp-content/themes/px8/fonts/BrandonGrotesque-Regular.eot?#iefix') format('embedded-opentype'),
-        url('https://soma.co/wp-content/themes/px8/fonts/BrandonGrotesque-Regular.woff2') format('woff2'),
-        url('https://soma.co/wp-content/themes/px8/fonts/BrandonGrotesque-Regular.woff') format('woff'),
-        url('https://soma.co/wp-content/themes/px8/fonts/BrandonGrotesque-Regular.svg#BrandonGrotesque-Regular') format('svg');
-    font-weight: 390;
-    font-style: normal;
-    font-stretch: normal;
-    unicode-range: U+0020-00FE;
-}
-@font-face {
-    font-family:'Montserrat';
-    src: url('https://soma.co/wp-content/themes/px8/fonts/BrandonGrotesque-Bold.eot');
-    src: url('https://soma.co/wp-content/themes/px8/fonts/BrandonGrotesque-Bold.eot?#iefix') format('embedded-opentype'),
-        url('https://soma.co/wp-content/themes/px8/fonts/BrandonGrotesque-Bold.woff2') format('woff2'),
-        url('https://soma.co/wp-content/themes/px8/fonts/BrandonGrotesque-Bold.woff') format('woff'),
-        url('https://soma.co/wp-content/themes/px8/fonts/BrandonGrotesque-Bold.svg#BrandonGrotesque-Regular') format('svg');
-    font-weight: 450;
-    font-style: normal;
-    font-stretch: normal;
-    unicode-range: U+0020-00FE;
-}
-@font-face {
-    font-family:'Montserrat';
-    src: url('https://soma.co/wp-content/themes/px8/fonts/CircularStd-Book.eot');
-    src: url('https://soma.co/wp-content/themes/px8/fonts/CircularStd-Book.eot?#iefix') format('embedded-opentype'),
-        url('https://soma.co/wp-content/themes/px8/fonts/CircularStd-Book.woff2') format('woff2'),
-        url('https://soma.co/wp-content/themes/px8/fonts/CircularStd-Book.woff') format('woff'),
-        url('https://soma.co/wp-content/themes/px8/fonts/CircularStd-Book.svg#CircularStd-Book') format('svg');
-    font-weight: 450;
-    font-style: normal;
-    font-stretch: normal;
-    unicode-range: U+0020-00FE;
-}
 *{
     font-family: Montserrat ,sans-serif;
 }
@@ -921,7 +884,7 @@ width:100%;
 .home-timer-section .cloud-city-dash:after{
     content: ":";
     font-size: 60px;
-    color: #cbd0d8;
+    color: rgba(0,0,0,0.7);
     line-height: 0.9;
     margin-left: 10px;
     position: absolute;
@@ -947,7 +910,7 @@ width:100%;
     font-family: 'Montserrat';
     text-transform: uppercase;
     font-size: 10px;
-    color: #cbd0d8;
+    color: rgba(0,0,0,0.7);
 }
 .home-timer-section .countdown-b{
     width: 600px;
@@ -965,7 +928,7 @@ width:100%;
 }
 .timer-bg.dark-bg{
     background: #27496c;
-    height: 100px;
+    height: 0px;
 }
 
 
@@ -1317,7 +1280,7 @@ Modals
 .modal-token-sale .cloud-city-dash:after{
     content: ":";
     font-size: 60px;
-    color: #cbd0d8;
+    color: rgba(0,0,0,0.7);
     line-height: 0.9;
     margin-left: 10px;
     position: absolute;
@@ -1343,7 +1306,7 @@ Modals
     font-family: 'Montserrat';
     text-transform: uppercase;
     font-size: 10px;
-    color: #cbd0d8;
+    color: rgba(0,0,0,0.7);
 }
 .modal-token-sale .countdown-b{
     width: 600px;
