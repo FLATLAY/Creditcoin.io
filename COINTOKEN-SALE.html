@@ -752,13 +752,14 @@
 	}
 	.contribute-btn{
 	   background: #a000fd !important;
-	   font-size: 18px !important;
+	   font-size: 30px !important;
 	   padding: 12px 30px !important;
 	   border: 1px solid #a000fd !important;
+	   height: 90px;
 	}
 	.contribute-btn:hover, .contribute-btn:focus{
 	   background: #a000fd !important;
-	   font-size: 18px !important;
+	   font-size: 30px !important;
 	   padding: 12px 30px !important;
 	   border: 1px solid #a000fd !important;
 	   opacity: 0.9 !important;
@@ -1258,7 +1259,7 @@
 									You will get <span class="contrib_get">1000</span> of CCOIN for <span class="contrib_eth">1</span> ETH
 								</div>
 								<div class="col-4">
-									<button class="btn btn-primary contribute-btn" data-target="#agreement" data-toggle="modal">Have a wallet? Contribute here!</button><!-- <a class="btn btn-primary get-wallet-btn" href="https://bitsify.net/ico-list/soma-part-5-how-to-join-the-ico/" target="_blank">No wallet? Set it up here!</a> -->
+									<button class="btn btn-primary contribute-btn" data-target="#agreement" data-toggle="modal">BUY NOW</button><!-- <a class="btn btn-primary get-wallet-btn" href="https://bitsify.net/ico-list/soma-part-5-how-to-join-the-ico/" target="_blank">No wallet? Set it up here!</a> -->
 								</div>
 							</div>
 						</div>
@@ -2526,19 +2527,23 @@
 	         })
 	   //]]>
 
-	   if(window.location.href.indexOf("/ar/") > -1) {
-	       jQuery(".countdown-b").attr("dir", "ltr");
-	       jQuery(".presale-section .col-sm-12:nth-child(4) .col-sm-4").attr("dir", "ltr");
-	       jQuery(".presale-section .col-sm-12:nth-child(4) .col-sm-4").css("text-align", "right");
-	       jQuery(".presale-section .col-sm-12:nth-child(4) .col-sm-4 h5").attr("dir", "rtl");
-	       jQuery(".ico-details .ico-value").attr("dir", "ltr");
-	       jQuery(".presale-section .total-sold .col-sm-6:nth-child(1)").attr("dir", "ltr");   
-	       jQuery(".presale-section .total-sold .col-sm-6:nth-child(1)").css("text-align", "right");
-	       jQuery(".presale-section .total-sold .col-sm-6:nth-child(1) h4").attr("dir", "rtl");
-	       jQuery(".presale-section .presale-form #spinner").attr("dir", "ltr");
-	       jQuery(".modal-agreement .wpcf7").attr("dir", "rtl");
-	       jQuery(".modal-agreement .step-2 .form-b .row .col-sm-12").css("text-align", "right");
-	   }
+	   jQUery(document).ready(function(){
+
+		   if(window.location.href.indexOf("/ar/") > -1) {
+		       jQuery(".countdown-b").attr("dir", "ltr");
+		       jQuery(".presale-section .col-sm-12:nth-child(4) .col-sm-4").attr("dir", "ltr");
+		       jQuery(".presale-section .col-sm-12:nth-child(4) .col-sm-4").css("text-align", "right");
+		       jQuery(".presale-section .col-sm-12:nth-child(4) .col-sm-4 h5").attr("dir", "rtl");
+		       jQuery(".ico-details .ico-value").attr("dir", "ltr");
+		       jQuery(".presale-section .total-sold .col-sm-6:nth-child(1)").attr("dir", "ltr");   
+		       jQuery(".presale-section .total-sold .col-sm-6:nth-child(1)").css("text-align", "right");
+		       jQuery(".presale-section .total-sold .col-sm-6:nth-child(1) h4").attr("dir", "rtl");
+		       jQuery(".presale-section .presale-form #spinner").attr("dir", "ltr");
+		       jQuery(".modal-agreement .wpcf7").attr("dir", "rtl");
+		       jQuery(".modal-agreement .step-2 .form-b .row .col-sm-12").css("text-align", "right");
+		   }
+
+		});
 
 	   if(window.location.href.indexOf("/ja/") > -1) {
 	       jQuery("body").addClass("japanese");

@@ -130,7 +130,7 @@ body.modal-open {
     font-size: 18px;
     padding: 12px 30px;
     font-family:'Montserrat';
-    min-width: 170px;
+    min-width: 260px;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active{
     border: 1px solid #fff !important;
