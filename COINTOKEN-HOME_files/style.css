@@ -98,46 +98,8 @@ opacity:0 !important;
     background-position:center;
     margin:-100px 0 0 -100px; /* is width and height divided by two */
 }
-
-
-@font-face {
-    font-family:'Brandon Grotesque Regular';
-    src: url('/wp-content/themes/px8/fonts/BrandonGrotesque-Regular.eot');
-    src: url('/wp-content/themes/px8/fonts/BrandonGrotesque-Regular.eot?#iefix') format('embedded-opentype'),
-        url('/wp-content/themes/px8/fonts/BrandonGrotesque-Regular.woff2') format('woff2'),
-        url('/wp-content/themes/px8/fonts/BrandonGrotesque-Regular.woff') format('woff'),
-        url('/wp-content/themes/px8/fonts/BrandonGrotesque-Regular.svg#BrandonGrotesque-Regular') format('svg');
-    font-weight: 390;
-    font-style: normal;
-    font-stretch: normal;
-    unicode-range: U+0020-00FE;
-}
-@font-face {
-    font-family:'Brandon Grotesque Bold';
-    src: url('/wp-content/themes/px8/fonts/BrandonGrotesque-Bold.eot');
-    src: url('/wp-content/themes/px8/fonts/BrandonGrotesque-Bold.eot?#iefix') format('embedded-opentype'),
-        url('/wp-content/themes/px8/fonts/BrandonGrotesque-Bold.woff2') format('woff2'),
-        url('/wp-content/themes/px8/fonts/BrandonGrotesque-Bold.woff') format('woff'),
-        url('/wp-content/themes/px8/fonts/BrandonGrotesque-Bold.svg#BrandonGrotesque-Regular') format('svg');
-    font-weight: 450;
-    font-style: normal;
-    font-stretch: normal;
-    unicode-range: U+0020-00FE;
-}
-@font-face {
-    font-family:'Circular Std Book';
-    src: url('/wp-content/themes/px8/fonts/CircularStd-Book.eot');
-    src: url('/wp-content/themes/px8/fonts/CircularStd-Book.eot?#iefix') format('embedded-opentype'),
-        url('/wp-content/themes/px8/fonts/CircularStd-Book.woff2') format('woff2'),
-        url('/wp-content/themes/px8/fonts/CircularStd-Book.woff') format('woff'),
-        url('/wp-content/themes/px8/fonts/CircularStd-Book.svg#CircularStd-Book') format('svg');
-    font-weight: 450;
-    font-style: normal;
-    font-stretch: normal;
-    unicode-range: U+0020-00FE;
-}
 *{
-    font-family: Brandon Grotesque Regular ,sans-serif;
+    font-family: Montserrat ,sans-serif;
 }
 input:focus,
 select:focus,
@@ -166,7 +128,7 @@ body.modal-open {
     border-radius: 50px;
     font-size: 18px;
     padding: 12px 30px;
-    font-family:'Circular Std Book';
+    font-family:'Montserrat';
     min-width: 170px;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active{
@@ -182,7 +144,7 @@ body.modal-open {
     border-radius: 50px;
     font-size: 18px;
     padding: 12px 30px;
-    font-family:'Circular Std Book';
+    font-family:'Montserrat';
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
     min-width: 170px;
 }
@@ -198,7 +160,7 @@ body.modal-open {
     border-radius: 50px;
     font-size: 18px;
     padding: 12px 35px;
-    font-family:'Circular Std Book';
+    font-family:'Montserrat';
     min-width: 170px;
 }
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active{
@@ -391,7 +353,7 @@ Header
     padding: 16px 18px;
     font-size: 16px;
     color: #fff;
-    font-family:'Circular Std Book';
+    font-family:'Montserrat';
 }
 .header .navbar .menu li.current-menu-item.menu-item-type-post_type a{
     border-radius: 50px;
@@ -421,7 +383,7 @@ Frontpage
     font-size: 17px;
     color: #b4b8c8;
     margin-bottom: 35px;
-    font-family:'Circular Std Book';  
+    font-family:'Montserrat';  
 }
 .home-hero-section .btn{
     margin: 0 20px 10px 20px;
@@ -460,7 +422,7 @@ Frontpage
     border-radius: 50px;
     font-size: 13px;
     padding: 10px 20px 10px 50px;
-    font-family:'Circular Std Book';  
+    font-family:'Montserrat';  
     opacity: 0.5;
 }
 .home-features-section .nav-tabs li.active a{
@@ -597,7 +559,7 @@ width:100%;
     color: #8794a2;
     border-radius: 12px; 
     font-size: 18px;
-    font-family:'Circular Std Book'; 
+    font-family:'Montserrat'; 
     text-align: left;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
     width: 260px;
@@ -605,7 +567,7 @@ width:100%;
 }
 .home-what-is-soma-section .btn-app-store div{
     color: #27496c;
-    font-family:'Circular Std Book'; 
+    font-family:'Montserrat'; 
 }
 .home-what-is-soma-section .btn-app-store.ios{
     background: #fff url(/wp-content/uploads/2017/07/iconmonstr-apple-os-1.png) no-repeat right 20px top 14px;
@@ -697,7 +659,7 @@ width:100%;
 .home-aple-release-section .slick-dots li button::before{
     position: absolute;
     font-size: 15px;
-    font-family:'Circular Std Book';
+    font-family:'Montserrat';
     color: #8794a2;
     top: 0;
     left: 0;
@@ -762,12 +724,12 @@ width:100%;
     background-size: 22px auto;
 }
 .home-team-section .team-item .name{
-    font-family:'Circular Std Book';
+    font-family:'Montserrat';
     color: #1c222b;
     font-size: 14px;
 }
 .home-team-section .team-item .position{
-    font-family:'Circular Std Book';
+    font-family:'Montserrat';
     color: #94a8bb;
     font-size: 12px;
 }
@@ -784,7 +746,7 @@ width:100%;
     background: #fff;
     color: #fd4145;
     font-size: 12px;  
-    font-family: 'Circular Std Book';  
+    font-family: 'Montserrat';  
     padding: 5px 10px;
     width: 100%;
     min-width: initial;
@@ -931,7 +893,7 @@ width:100%;
     background: none;
     border: 0;
     text-shadow: none;
-    font-family:'Brandon Grotesque Regular';
+    font-family:'Montserrat';
     font-size: 60px;
     color: #27496c;
     width: 38px;
@@ -939,7 +901,7 @@ width:100%;
     line-height: 1.0;
 }
 .home-timer-section .cloud-city-dash_title{
-    font-family: 'Circular Std Book';
+    font-family: 'Montserrat';
     text-transform: uppercase;
     font-size: 10px;
     color: #cbd0d8;
@@ -949,7 +911,7 @@ width:100%;
     display: inline-block;
 }
 .home-timer-section h2{
-    font-family: 'Circular Std Book';
+    font-family: 'Montserrat';
     font-size: 19px;
     margin-bottom: 0;
 }
@@ -1123,7 +1085,7 @@ Presale
     font-size: 18px;
     color: #27496c;
     text-transform: uppercase;
-    font-family: 'Circular Std Book';
+    font-family: 'Montserrat';
     width: 120px;
     text-align: center;
     height: 50px;
@@ -1134,7 +1096,7 @@ Presale
     font-size: 18px;
     color: #27496c;
     text-transform: uppercase;
-    font-family: 'Circular Std Book';
+    font-family: 'Montserrat';
     border: none;
     height: 50px;
     width: 320px;
@@ -1169,7 +1131,7 @@ Presale
     top: 10px;
     left: 20px;
     font-size: 22px;
-    font-family: 'Circular Std Book';
+    font-family: 'Montserrat';
     color: #27496c;
 }
 .presale-section .presale-form .ui-spinner a.ui-spinner-down:after{
@@ -1178,7 +1140,7 @@ Presale
     top: 10px;
     left: 20px;
     font-size: 22px;
-    font-family: 'Circular Std Book';
+    font-family: 'Montserrat';
     color: #27496c;
 }
 .presale-section .presale-form .ui-spinner a.ui-spinner-button span{
@@ -1213,7 +1175,7 @@ Presale
     background: none;
     border: 0;
     text-shadow: none;
-    font-family:'Brandon Grotesque Regular';
+    font-family:'Montserrat';
     font-size: 32px;
     color: #fff;
     width: 22px;
@@ -1221,7 +1183,7 @@ Presale
     line-height: 1.0;
 }
 .page-template-presale-page .data-3 .cloud-city-dash_title{
-    font-family: 'Circular Std Book';
+    font-family: 'Montserrat';
     text-transform: uppercase;
     font-size: 8px;
 color: #fff;
@@ -1288,7 +1250,7 @@ Modals
     color: #27496c;
     font-size: 50px;
     border-radius: 50px;
-    font-family: 'Brandon Grotesque Regular';
+    font-family: 'Montserrat';
     font-weight: normal;
     margin: 18px 18px 0 0;
     padding: 0;
@@ -1326,7 +1288,7 @@ Modals
     background: none;
     border: 0;
     text-shadow: none;
-    font-family:'Brandon Grotesque Regular';
+    font-family:'Montserrat';
     font-size: 60px;
     color: #27496c;
     width: 38px;
@@ -1334,7 +1296,7 @@ Modals
     line-height: 1.0;
 }
 .modal-token-sale .cloud-city-dash_title{
-    font-family: 'Circular Std Book';
+    font-family: 'Montserrat';
     text-transform: uppercase;
     font-size: 10px;
     color: #cbd0d8;
@@ -1344,13 +1306,13 @@ Modals
     display: inline-block;
 }
 .modal-token-sale h2{
-    font-family:'Brandon Grotesque Regular';
+    font-family:'Montserrat';
     font-size: 30px;
     margin-bottom: 70px;
     color: #27496c;
 }
 .modal-token-sale h4{
-    font-family: 'Circular Std Book';
+    font-family: 'Montserrat';
     font-size: 19px;
     margin-bottom: 0;
     color: #27496c;
@@ -1395,7 +1357,7 @@ Modals
     text-align: left;
     font-size: 20px;
     color: #ff3d40;
-    font-family:'Brandon Grotesque Regular';
+    font-family:'Montserrat';
     padding: 10px 25px 0 25px;
 }
 .modal-agreement .modal-content{
@@ -1541,7 +1503,7 @@ Modals
     text-align: left;
     font-size: 20px;
     color: #ff3d40;
-    font-family:'Brandon Grotesque Regular';
+    font-family:'Montserrat';
     padding: 5px 25px 30px 25px;
 }
 .modal-agreement .checkboxes-b{
@@ -1557,7 +1519,7 @@ Modals
     text-align: left;
     font-size: 20px;
     color: #ff3d40;
-    font-family:'Brandon Grotesque Regular';
+    font-family:'Montserrat';
     padding: 0 25px 0 15px;
 }
 .modal .wpcf7-mail-sent-ok{
@@ -1593,7 +1555,7 @@ Modals
     margin-bottom: 20px;
 }
 .modal-agreement .step-2 .form-b .row .col-sm-4:nth-last-child(1){
-    font-family:'Brandon Grotesque Bold';
+    font-family:'Montserrat';
     color: #27496c;
 }
 .modal-agreement .step-2 .form-b .row .col-sm-4:nth-last-child(1) h5{
