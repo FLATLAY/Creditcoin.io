@@ -100,7 +100,7 @@ opacity:0 !important;
 }
 
 *{
-    font-family: Montserrat ,sans-serif;
+    font-family: Montserrat, Helvetica, Helvetica, Arial, sans-serif;
 }
 input:focus,
 select:focus,
@@ -141,7 +141,7 @@ body.modal-open {
 .btn-default{
     border: none;
     background: #fff;
-    color: #27496c;
+    color: black;
     border-radius: 50px;
     font-size: 18px;
     padding: 12px 30px;
@@ -186,7 +186,7 @@ body.modal-open {
 }
 section h2{
     font-size: 45px;   
-    color: #27496c;
+    color: black;
     margin-bottom: 30px;
 }
 p{
@@ -201,7 +201,7 @@ FAQ
 */
 .faq-content {
 font-size: 16px;
-color: #27496c;
+color: black;
 }
 .faq-content h4 {
     font-size: 24px;
@@ -209,7 +209,7 @@ color: #27496c;
     border-top: 1px solid #e2e2e2;
     padding-top: 40px;
     margin-top: 40px;
-    color: #27496c;
+    color: black;
   }
 
 
@@ -234,7 +234,7 @@ PRESS
     
   }
   .ico-details .ico-value {
-    color:#27496C;
+    color:black;
     font-size: 26px;
     display: block;
     
@@ -248,7 +248,7 @@ opacity: 0;
     padding-top: 50px;
   }
 .ico-description p {
-    color:#27496C !important;
+    color:black !important;
   }
 /*
 Social icons
@@ -262,19 +262,19 @@ Social icons
     margin: 0 9px;
 }
 .social-icons .social-icons-item.slack{
-    background: url(https://soma.co/wp-content/uploads/2017/07/Slack_Mark_Monochrome_Black.png) no-repeat center;
+    background: url(../COINTOKEN-HOME_files/blackslack.png) no-repeat center;
     background-size: 34px auto;
 }
 .social-icons .social-icons-item.twitter{
-    background: url(https://soma.co/wp-content/uploads/2017/07/iconmonstr-twitter-4.png) no-repeat 0 0;
+    background: url(../COINTOKEN-HOME_files/blacktwitter.png) no-repeat 0 0;
     background-size: 35px auto;
 }
 .social-icons .social-icons-item.fb{
-    background: url(https://soma.co/wp-content/uploads/2017/07/iconmonstr-facebook-4.png) no-repeat 0 0;
+    background: url(../COINTOKEN-HOME_files/blackfacebook.png) no-repeat 0 0;
     background-size: 35px auto;
 }
 .social-icons .social-icons-item.github{
-    background: url(https://soma.co/wp-content/uploads/2017/07/iconmonstr-github-1.png) no-repeat 0 0;
+    background: url(../COINTOKEN-HOME_files/blackgithub.png) no-repeat 0 0;
     background-size: 36px auto;
 }
 
@@ -285,7 +285,7 @@ Header
 ====================================================================
 */
 .header{
-    background: #27496c;
+    background: black;
     text-align: right;
 }
 .page-template-front-page .header, .page-template-presale-page .header{ 
@@ -482,7 +482,7 @@ overflow:hidden;
     padding: 18px 50px;
 }
 .home-how-it-works-section .video{
-    background: #27496c url(https://soma.co/wp-content/uploads/2017/07/group-27@3x.png) no-repeat center;
+    background: black url(https://soma.co/wp-content/uploads/2017/07/group-27@3x.png) no-repeat center;
     background-size: 355px auto;
     border-radius: 15px;
     width: 795px;
@@ -506,7 +506,7 @@ overflow:hidden;
     margin: 40px 0 40px 0;
 }
 .home-how-it-works-section .hiw-slider .hiw-slider-item{
-    background: #27496c;
+    background: black;
     border-radius: 4px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
     width: 180px;
@@ -570,7 +570,7 @@ width:100%;
     margin-right: 10px;
 }
 .home-what-is-soma-section .btn-app-store div{
-    color: #27496c;
+    color: black;
     font-family:'Montserrat'; 
 }
 .home-what-is-soma-section .btn-app-store.ios{
@@ -632,7 +632,7 @@ width:100%;
     margin-top: -8px;
 }
 .home-aple-release-section .slick-dots li button{
-    background: #27496c;
+    background: black;
     border: 2px solid #fff;
     font-size: 0;
     width: 18px;
@@ -645,7 +645,7 @@ width:100%;
     background: #fff;
 }
 .home-aple-release-section .slick-arrow{
-    background: #27496c;
+    background: black;
     font-size: 0;
     width: 30px;
     height: 30px; 
@@ -854,7 +854,7 @@ width:100%;
     padding: 60px 0 0 0;
 }
 .oval-bottom-border{
-    background: #27496c;
+    background: black;
     width: 100%;
     height: 100px;
     border-radius: 50% / 100%;
@@ -901,7 +901,7 @@ width:100%;
     text-shadow: none;
     font-family:'Montserrat';
     font-size: 60px;
-    color: #27496c;
+    color: black;
     width: 38px;
     height: 80px;
     line-height: 1.0;
@@ -927,7 +927,7 @@ width:100%;
     height: 100px;
 }
 .timer-bg.dark-bg{
-    background: #27496c;
+    background: black;
     height: 0px;
 }
 
@@ -952,7 +952,7 @@ Whitepapers
 }
 .whitepapers-page-section .panel h3{
     font-size: 32px;
-    color: #27496c;
+    color: black;
     margin-bottom: 45px;
 }
 .whitepapers-page-section .panel{
@@ -988,7 +988,7 @@ Presale
     padding: 150px 0 150px 0;
 }
 .page-template-presale-page .home-timer-section .container{
-    background: #27496c;
+    background: black;
 }
 .page-template-presale-page .home-timer-section h2{
     color: #fff;
@@ -1090,7 +1090,7 @@ Presale
     border-radius: 5px;
     float: left;
     font-size: 18px;
-    color: #27496c;
+    color: black;
     text-transform: uppercase;
     font-family: 'Montserrat';
     width: 120px;
@@ -1101,7 +1101,7 @@ Presale
 .presale-section .presale-form #spinner{
     border-radius: 5px;
     font-size: 18px;
-    color: #27496c;
+    color: black;
     text-transform: uppercase;
     font-family: 'Montserrat';
     border: none;
@@ -1139,7 +1139,7 @@ Presale
     left: 20px;
     font-size: 22px;
     font-family: 'Montserrat';
-    color: #27496c;
+    color: black;
 }
 .presale-section .presale-form .ui-spinner a.ui-spinner-down:after{
     content: "-";
@@ -1148,7 +1148,7 @@ Presale
     left: 20px;
     font-size: 22px;
     font-family: 'Montserrat';
-    color: #27496c;
+    color: black;
 }
 .presale-section .presale-form .ui-spinner a.ui-spinner-button span{
     display: none;
@@ -1297,7 +1297,7 @@ Modals
     text-shadow: none;
     font-family:'Montserrat';
     font-size: 60px;
-    color: #27496c;
+    color: black;
     width: 38px;
     height: 80px;
     line-height: 1.0;
@@ -1316,13 +1316,13 @@ Modals
     font-family:'Montserrat';
     font-size: 30px;
     margin-bottom: 70px;
-    color: #27496c;
+    color: black;
 }
 .modal-token-sale h4{
     font-family: 'Montserrat';
     font-size: 19px;
     margin-bottom: 0;
-    color: #27496c;
+    color: black;
 }
 .modal-token-sale .btn-default{
     margin-top: 50px;
@@ -1442,10 +1442,10 @@ Modals
     box-shadow: initial !important;  
     border-radius: 50px !important;  
     background-color: #f5f6fa !important;  
-    border: 2px solid #27496c !important;  
+    border: 2px solid black !important;  
 }
 .modal-agreement .ui-state-active .ui-icon{
-    background: #27496c url(https://soma.co/wp-content/uploads/2017/07/checked@2x.png) no-repeat center !important; 
+    background: black url(https://soma.co/wp-content/uploads/2017/07/checked@2x.png) no-repeat center !important; 
     background-size: 36px 36px !important; 
 }
 .modal-agreement h3{
@@ -1540,11 +1540,11 @@ Modals
     margin-bottom: 20px;
 }
 .modal-agreement .step-2-body p{
-    color: #27496c;
+    color: black;
     font-size: 20px;
 }
 .modal-agreement .step-2 .form-b{
-    color: #27496c;
+    color: black;
     font-size: 26px;
 }
 .modal-agreement .step-2 .form-b .row{
@@ -1563,10 +1563,10 @@ Modals
 }
 .modal-agreement .step-2 .form-b .row .col-sm-4:nth-last-child(1){
     font-family:'Montserrat';
-    color: #27496c;
+    color: black;
 }
 .modal-agreement .step-2 .form-b .row .col-sm-4:nth-last-child(1) h5{
-    color: #27496c;
+    color: black;
 }
 .modal-agreement .form-b .selectric{
     border: 1px solid #dedede;
@@ -1621,11 +1621,11 @@ Modals
     border-radius: 0 0 10px 10px;
 }
 .modal-agreement .form-b .selectric-items li.highlighted {
-    background: #27496c !important;
+    background: black !important;
     color: #fff !important;
 }
 .modal-agreement .form-b .selectric-items li:hover {
-    background: #27496c !important;
+    background: black !important;
     color: #fff !important;
 }
 .modal .form-b .wpcf7-not-valid{
