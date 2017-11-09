@@ -332,21 +332,21 @@
 			} );
 		};
 
-		$.ajax( {
-			type: 'POST',
-			url: wpcf7.apiSettings.getRoute(
-				'/contact-forms/' + wpcf7.getId( $form ) + '/feedback' ),
-			data: formData,
-			dataType: 'json',
-			processData: false,
-			contentType: false
-		} ).done( function( data, status, xhr ) {
-			ajaxSuccess( data, status, xhr, $form );
-			$( '.ajax-loader', $form ).removeClass( 'is-active' );
-		} ).fail( function( xhr, status, error ) {
-			var $e = $( '<div class="ajax-error"></div>' ).text( error.message );
-			$form.after( $e );
-		} );
+		// $.ajax( {
+		// 	type: 'POST',
+		// 	url: wpcf7.apiSettings.getRoute(
+		// 		'/contact-forms/' + wpcf7.getId( $form ) + '/feedback' ),
+		// 	data: formData,
+		// 	dataType: 'json',
+		// 	processData: false,
+		// 	contentType: false
+		// } ).done( function( data, status, xhr ) {
+		// 	ajaxSuccess( data, status, xhr, $form );
+		// 	$( '.ajax-loader', $form ).removeClass( 'is-active' );
+		// } ).fail( function( xhr, status, error ) {
+		// 	var $e = $( '<div class="ajax-error"></div>' ).text( error.message );
+		// 	$form.after( $e );
+		// } );
 	};
 
 	wpcf7.triggerEvent = function( target, name, detail ) {

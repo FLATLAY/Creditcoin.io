@@ -151,7 +151,7 @@ body.modal-open {
 }
 .btn-default:hover, .btn-default:focus, .btn-default:active{
     background: #fff;
-    color: #27496c;
+    color: black;
     opacity: 0.9;
 }
 .btn-secondary{
@@ -1248,13 +1248,13 @@ Modals
     background-color: #f5f6fa;
 }
 .modal-dialog button.close{
-    border: solid 2px #27496c;
+    border: solid 2px black;
     background: url(https://soma.co/wp-content/uploads/2017/07/close-cross.png) no-repeat center;
     background-size: 20px 20px;
     width: 46px;
     height: 46px; 
     opacity: 1;
-    color: #27496c;
+    color: black;
     font-size: 50px;
     border-radius: 50px;
     font-family: 'Montserrat';
@@ -1788,7 +1788,10 @@ margin-right: auto;
     text-align: center;
 }
 .navbar-default .navbar-toggle {
-background-color: #27496C;
+    position: absolute;
+    background-color: black;
+    z-index: 10;
+    right: 0;
 }
 .navbar-toggle {
     position: relative;
@@ -1805,21 +1808,24 @@ background-color: #27496C;
     width: 45px;
 }
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-    background-color: #27496C;
+    background-color: black;
 }
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #fff;
 }
 .header .navbar-collapse {
-   float: none;
+    position: absolute;
+    z-index: 5;
+    float: none;
     width: 100%;
-    background-color: #27496C;
+    background-color: black;
     overflow: visible;
     padding-top: 88px;
     margin-top: -86px;
     -webkit-box-shadow: 0px 0px 16px -1px rgba(19,25,46,1);
     -moz-box-shadow: 0px 0px 16px -1px rgba(19,25,46,1);
     box-shadow: 0px 0px 16px -1px rgba(19,25,46,1);
+    border-bottom: 1px solid white;
 }
 .header .navbar .menu-main-menu-container {
     float: none;
@@ -1834,7 +1840,7 @@ background-color: #27496C;
     padding: 20px 0px;
     width: 100%;
     text-align: center;
-    border-top: 1px solid #3A5F85;
+    border-top: 1px solid white;
 }
 .modal-testflight .wpcf7-mail-sent-ok{
     display: block !important;	

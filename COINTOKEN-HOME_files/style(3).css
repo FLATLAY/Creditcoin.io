@@ -1829,7 +1829,7 @@ background-color: black;
     padding: 20px 0px;
     width: 100%;
     text-align: center;
-    border-top: 1px solid #3A5F85;
+    border-top: 1px solid white;
 }
 .modal-testflight .wpcf7-mail-sent-ok{
     display: block !important;	
