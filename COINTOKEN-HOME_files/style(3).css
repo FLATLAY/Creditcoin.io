@@ -423,37 +423,37 @@ Frontpage
     font-size: 13px;
     padding: 10px 20px 10px 50px;
     font-family:'Montserrat';  
-    opacity: 0.5;
+    opacity: 0.4;
 }
 .home-features-section .nav-tabs li.active a{
     opacity: 1;
 }
 .home-features-section .nav-tabs a:hover{
     background: none;
-    border: 1px solid #526d89;
+    border: 1px solid black;
     opacity: 1;
 }
 .home-features-section .nav-tabs>li.active>a,.home-features-section  .nav-tabs>li.active>a:focus,.home-features-section  .nav-tabs>li.active>a:hover{
-    border: 1px solid #526d89;
-    color: rgba(0,0,0,0.7);
+    border: 1px solid black;
+    color: black;
 }
 .home-features-section .tab-content{
     text-align: left;
 }
 .home-features-section .nav-tabs .tab1{
-    background: url(https://soma.co/wp-content/uploads/2017/07/Interactive-Item-Card.png) no-repeat left 15px top 8px !important;
+    background: url(./interactiveitemcard.png) no-repeat left 15px top 8px !important;
     background-size: 22px auto !important;
 }
 .home-features-section .nav-tabs .tab2{
-    background: url(https://soma.co/wp-content/uploads/2017/07/Secured-identity.png) no-repeat left 14px top 9px !important;
+    background: url(./securedidentity.png) no-repeat left 14px top 9px !important;
     background-size: 26px auto !important;   
 }
 .home-features-section .nav-tabs .tab3{
-    background: url(https://soma.co/wp-content/uploads/2017/07/Fast-and-secure-transactions.png) no-repeat left 16px top 6px !important;
+    background: url(./fastandsecuretransactions.png) no-repeat left 16px top 6px !important;
     background-size: 23px auto !important;
 }
 .home-features-section .nav-tabs .tab4{
-    background: url(https://soma.co/wp-content/uploads/2017/07/P2P-marketing.png) no-repeat left 15px top 6px !important;
+    background: url(./p2pmarketing.png) no-repeat left 15px top 6px !important;
     background-size: 25px auto !important;  
 }
 .home-features-section .tab-content .row{
