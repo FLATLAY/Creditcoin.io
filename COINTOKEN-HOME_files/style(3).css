@@ -55,6 +55,7 @@ background-size: cover;
 border-radius: 15px 15px 0 0;
 background-position:center;
 background-color: #e2e2e2;
+box-shadow: 3px 5px 5px #888888;
 }
 .home-team-section-grid .item-content {
 text-align:center;
