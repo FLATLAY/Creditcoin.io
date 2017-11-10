@@ -5,12 +5,12 @@
 
 
 jQuery(function () {
-    if (typeof(web3) !== "undefined") {
-        var web3 = new Web3(web3.currentProvider);
-    } else {
-        // set the provider you want from Web3.providers
-        var web3 = new Web3(new Web3.providers.HttpProvider("https://mainnet.infura.io/lCjDoM2bVKukZdUG3D3m"));
-    }
+    // if (typeof(web3) !== "undefined") {
+    //     var web3 = new Web3(web3.currentProvider);
+    // } else {
+    //     // set the provider you want from Web3.providers
+    //     var web3 = new Web3(new Web3.providers.HttpProvider("https://mainnet.infura.io/lCjDoM2bVKukZdUG3D3m"));
+    // }
 
     var abi = [
                 {
@@ -604,7 +604,7 @@ jQuery(function () {
 
         // init contract object    
         contractAddress = "0x1F870a147029E7dC2AB06A700EAB1803688aC65E",
-        contractInstance = new web3.eth.Contract(abi, contractAddress),
+        // contractInstance = new web3.eth.Contract(abi, contractAddress),
 
         // init
         totalRaised = 0,
@@ -657,32 +657,32 @@ jQuery(function () {
         jQuery("#ratio").text(ratio);
 
         // use async to support MetaMask
-        contractInstance.methods.totalRaised().call(function (error, result) {
-            if (!error) {
-                totalRaised = result;
-                console.log("totalRaised: " + totalRaised.toString(10));
+        // contractInstance.methods.totalRaised().call(function (error, result) {
+        //     if (!error) {
+        //         totalRaised = result;
+        //         console.log("totalRaised: " + totalRaised.toString(10));
 
-                jQuery("#contributions").text(totalRaised / decimals);
+        //         jQuery("#contributions").text(totalRaised / decimals);
                 
-                // get price for equivalent
-                jQuery.get("https://api.coinmarketcap.com/v1/ticker/ethereum/?convert=EUR", function (data) {
-                    jQuery("#equivalent").text(totalRaised / decimals * data[0].price_eur);
-                });
-            } else {
-                console.error(error);
-            }
-        });
+        //         // get price for equivalent
+        //         jQuery.get("https://api.coinmarketcap.com/v1/ticker/ethereum/?convert=EUR", function (data) {
+        //             jQuery("#equivalent").text(totalRaised / decimals * data[0].price_eur);
+        //         });
+        //     } else {
+        //         console.error(error);
+        //     }
+        // });
 
-        contractInstance.methods.tokensSold().call(function (error, result) {
-            if (!error) {
-                tokensSold = result;
-                console.log("tokensSold: " + tokensSold.toString(10));
+        // contractInstance.methods.tokensSold().call(function (error, result) {
+        //     if (!error) {
+        //         tokensSold = result;
+        //         console.log("tokensSold: " + tokensSold.toString(10));
 
-                jQuery("#tokens_sold").text(tokensSold / decimals);
-            } else {
-                console.error(error);
-            }
-        });
+        //         jQuery("#tokens_sold").text(tokensSold / decimals);
+        //     } else {
+        //         console.error(error);
+        //     }
+        // });
 
         // contribute amount
         updateContribAmount();
