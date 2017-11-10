@@ -262,19 +262,19 @@ Social icons
     margin: 0 9px;
 }
 .social-icons .social-icons-item.slack{
-    background: url(../COINTOKEN-HOME_files/blackslack.png) no-repeat center;
+    background: url(../../COINTOKEN-HOME_files/blackslack.png) no-repeat center;
     background-size: 34px auto;
 }
 .social-icons .social-icons-item.twitter{
-    background: url(../COINTOKEN-HOME_files/blacktwitter.png) no-repeat 0 0;
+    background: url(../../COINTOKEN-HOME_files/blacktwitter.png) no-repeat 0 0;
     background-size: 35px auto;
 }
 .social-icons .social-icons-item.fb{
-    background: url(../COINTOKEN-HOME_files/blackfacebook.png) no-repeat 0 0;
+    background: url(../../COINTOKEN-HOME_files/blackfacebook.png) no-repeat 0 0;
     background-size: 35px auto;
 }
 .social-icons .social-icons-item.github{
-    background: url(../COINTOKEN-HOME_files/blackgithub.png) no-repeat 0 0;
+    background: url(../../COINTOKEN-HOME_files/blackgithub.png) no-repeat 0 0;
     background-size: 36px auto;
 }
 
