@@ -916,7 +916,7 @@
 	   .countdown-b .time.day:after, .countdown-b .time.hour:after, .countdown-b .time.minute:after{
 	       content: ":";
 	       font-size: 40px;  
-	       color: #fff;
+	       color: rgba(0,0,0,0.7);
 	       position: absolute;
 	       top: 5px;
 	       right: 0; 
@@ -946,7 +946,7 @@
 				<div class="container">
 					<div class="soma-logo"></div>
 					<h1>FLATLAY<sup style="font-size: 10pt;top: -30px;">&reg;</sup> on Creditcoin</h1>
-					<p>The premiere token based affiliate network for content creators & brands in the world.<br>One token to shop everywhere.</p><a class="btn btn-primary btn-primary-1 btn-whitepaper" href="./COINTOKEN-HOME_files/FlatlayWhitepaper.pdf" target="_blank">Whitepaper</a><a class="btn btn-primary btn-primary-1 btn-whitepaper" href="./COINTOKEN-HOME_files/ExecutiveSummary.pdf" target="_blank">Executive Summary</a> <a class="btn btn-primary btn-primary-2" href="http://www.cointoken.io/token-sale">Token sale</a>
+					<p>The premiere token-based affiliate network for content creators & brands in the world.<br>One token to shop everywhere.</p><a class="btn btn-primary btn-primary-1 btn-whitepaper" href="./COINTOKEN-HOME_files/FlatlayWhitepaper.pdf" target="_blank">Whitepaper</a><a class="btn btn-primary btn-primary-1 btn-whitepaper" href="./COINTOKEN-HOME_files/ExecutiveSummary.pdf" target="_blank">Executive Summary</a> <a class="btn btn-primary btn-primary-2" href="http://www.cointoken.io/tokensale">Token sale</a>
 					<div class="row subscribe-b">
 						<div class="col-sm-6 subscribe-title-b">
 							<div class="subscribe-title-wr">
@@ -1064,46 +1064,6 @@
 						});
 						</script>
 						<div class="circular-countdown" id="circularcountdown_z3GOg85T">
-<!-- 							<div class="day time" style="width: 0px; height: 0px; margin: 10px;">
-								<canvas class="bg" height="0" width="0"></canvas>
-								<canvas class="circle" height="0" width="0"></canvas>
-								<div class="count" style="width: 0px; height: 0px; font-size: 60px; color: rgb(255, 255, 255);">
-									9
-								</div>
-								<div class="text" style="width: 0px; height: 0px; line-height: 60px; font-size: 10px; color: rgb(255, 255, 255); margin-top: 0px;">
-									Days
-								</div>
-							</div>
-							<div class="hour time" style="width: 0px; height: 0px; margin: 10px;">
-								<canvas class="bg" height="0" width="0"></canvas>
-								<canvas class="circle" height="0" width="0"></canvas>
-								<div class="count" style="width: 0px; height: 0px; font-size: 60px; color: rgb(255, 255, 255);">
-									22
-								</div>
-								<div class="text" style="width: 0px; height: 0px; line-height: 60px; font-size: 10px; color: rgb(255, 255, 255); margin-top: 0px;">
-									Hours
-								</div>
-							</div>
-							<div class="minute time" style="width: 0px; height: 0px; margin: 10px;">
-								<canvas class="bg" height="0" width="0"></canvas>
-								<canvas class="circle" height="0" width="0"></canvas>
-								<div class="count" style="width: 0px; height: 0px; font-size: 60px; color: rgb(255, 255, 255);">
-									36
-								</div>
-								<div class="text" style="width: 0px; height: 0px; line-height: 60px; font-size: 10px; color: rgb(255, 255, 255); margin-top: 0px;">
-									Minutes
-								</div>
-							</div>
-							<div class="second time" style="width: 0px; height: 0px; margin: 10px;">
-								<canvas class="bg" height="0" width="0"></canvas>
-								<canvas class="circle" height="0" width="0"></canvas>
-								<div class="count" style="width: 0px; height: 0px; font-size: 60px; color: rgb(255, 255, 255);">
-									49
-								</div>
-								<div class="text" style="width: 0px; height: 0px; line-height: 60px; font-size: 10px; color: rgb(255, 255, 255); margin-top: 0px;">
-									Seconds
-								</div>
-							</div> -->
 						</div>
 					</div>
 					<div class="ico-period">
@@ -1116,9 +1076,9 @@
 			<div class="container">
 				<div class="row home-what-is-soma-bg" style="background: url(./COINTOKEN-HOME_files/whatisflatlay2.png) no-repeat right 0px; background-size: 500px auto;">
 					<div class="col-sm-7">
-						<h2>What's FLATLAY<sup style="font-size: 10pt;top: -25px;">&reg;</sup>?</h2>
-						<p>Flatlay is on a mission to support the global democratization of commerce with technology. The team's focus is on making e-commerce monetization accessible to anyone by removing the borders & restrictions for global participation. The blockchain-based network enables content creators, brands & publishers to interact securely without restriction versus the deprecated marketplace infrastructures & legacy regulations of today.<br>
-						Join us as we inspire this evolution into a new era of user generated commerce.</p><br>
+						<h2>What's FLATLAY<sup style="font-size: 10pt;top: -25px;">&reg;</sup></h2>
+						<p>Flatlay is on a mission to support the global democratization of commerce with technology. The team's focus is on making e-commerce monetization accessible to anyone by removing the borders & restrictions for global participation. The blockchain-based network enables content creators, brands & publishers to interact securely without restriction versus the legacy marketplace infrastructures & regulations of today.<br><br>
+						<strong>Join us as we inspire this evolution into a new era of user generated commerce.</strong></p><br>
 						<a class="btn btn-app-store android" href="https://play.google.com/store/apps/details?id=com.flatlay&hl=en" target="_blank">Beta Available
 						<div>
 							Android
@@ -2123,21 +2083,21 @@
 	document.getElementById("subscribe-input").placeholder = "Your E-mail";
 	document.getElementById("subscribe-btn").value = "Subscribe";
 
-	   document.addEventListener( 'wpcf7submit', function( event ) {
-	       if ( '917' == event.detail.contactFormId ) {
-	           location = 'https://soma.co/thank-you/';
-	           fbq('track', 'Lead');
-	       } else if ( '77' == event.detail.contactFormId ) { 
-	           fbq('track', 'Lead');
-	       }
-	   }, false );
+	   // document.addEventListener( 'wpcf7submit', function( event ) {
+	   //     if ( '917' == event.detail.contactFormId ) {
+	   //         location = 'https://soma.co/thank-you/';
+	   //         fbq('track', 'Lead');
+	   //     } else if ( '77' == event.detail.contactFormId ) { 
+	   //         fbq('track', 'Lead');
+	   //     }
+	   // }, false );
 
 	jQuery('#testflight .wpcf7').on('mailsent.wpcf7', function () {
-	   fbq('track', 'Lead');
+	   // fbq('track', 'Lead');
 	});
 	jQuery('.subscribe-b .wpcf7').on('mailsent.wpcf7', function () {
 	   // location = 'https://soma.co/thank-you/';
-	   fbq('track', 'Lead');
+	   // fbq('track', 'Lead');
 	});
 
 	</script> 
