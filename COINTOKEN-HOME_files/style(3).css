@@ -539,6 +539,16 @@ width:100%;
     background-size: 15px auto;
     right: -30px;
 }
+
+@media(max-width: 750px){
+    .home-how-it-works-section .hiw-slider .slick-arrow.slick-next{
+        right: 0px;
+    }
+    .home-how-it-works-section .hiw-slider .slick-arrow.slick-prev{
+        left: 0px;
+    }
+}
+
 .home-what-is-soma-section-bg{
     background: url(https://soma.co/wp-content/uploads/2017/07/soma_section.gif) no-repeat top right; 
     background-size: 560px auto;
