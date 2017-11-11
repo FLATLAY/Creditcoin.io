@@ -302,6 +302,7 @@ Header
     position: absolute;
     right: 0;
     width: 100%;
+    z-index: 10;
 }
 .header .navbar .menu{
     list-style: none;
