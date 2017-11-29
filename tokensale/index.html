@@ -2395,14 +2395,37 @@
 		});
 		jQuery(".contribute-btn").click( toTop );
 		jQuery(".page-template-presale-page2 .home-media-section .btn.btn-secondary").click( toTop );
+
+		// NAME/EMAIL/ETHaddress script //*****************************************************************************************************************************
 		jQuery("#sale-btn.btn.btn-default").click( function(){
 			toTop();
 			jQuery('.step-1').css("display", "none");
 			jQuery('.step-2').css("display","block");
+			// var email = document.getElementById('email').value;
+			var name = document.getElementById('sale-full-name').value;
+			var address = document.getElementById('eth-address').value;
+			var email = document.getElementById('sale-email').value;
+						console.log(name, address, email);
+			var url = "https://v1.flat-lay.com/cryptoinfo";
+	   		var data = {
+	   			name: name,
+	   			email: email,
+	   			address: address
+	   		};
+
+	   		jQuery.ajax({
+	   			type: "POST",
+	   			url: url,
+	   			data: data,
+	   			success: function(data){
+	   				console.log("success", data);	
+	   			}
+	   		});
 		});
 
 		jQuery("#sale-btn").click( function(){
 			toTop();
+			console.log("yez");
 		});
 
 		function toTop() {
@@ -2431,6 +2454,30 @@
 	<script src="./COINTOKEN-SALE_files/jquery.cookie.js">
 	</script> 
 	<script>
+
+
+	   // NAME/EMAIL/ETHAddress Script //
+	   jQuery("sale-btn").click(function(e){
+	   		// var url = "https://v1.flat-lay.com/cryptoinfo";
+	   		// var data = {
+	   		// 	name:,
+	   		// 	email:,
+	   		// 	address:
+	   		// };
+
+	   		// jQuery.ajax({
+	   		// 	type: "POST",
+	   		// 	url: url,
+	   		// 	data: data,
+	   		// 	success: function(data){
+	   		// 		console.log("success", data);	
+	   		// 	}
+	   		// });
+	   console.log("clikced");
+	   });
+
+
+
 
 	jQuery(".cloud-city-days_dash .cloud-city-dash_title").text('Days');
 	jQuery(".cloud-city-hours_dash .cloud-city-dash_title").text('Hours');
@@ -2534,6 +2581,7 @@
 	       jQuery(".btn-whitepaper").attr("href", "/ja/documents/");
 	       jQuery(".home-hero-section .btn-primary-2").attr("href", "/ja/token-sale/");        
 	   }
+
 	</script>
 	<footer class="footer">
 		<div class="footer-menu-container-1">
