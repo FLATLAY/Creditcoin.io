@@ -2408,15 +2408,19 @@
 						console.log(name, address, email);
 			var url = "https://v1.flat-lay.com/cryptoinfo";
 	   		var data = {
-	   			name: name,
-	   			email: email,
-	   			address: address
+	   			'name': name,
+	   			'email': email,
+	   			'address': address
 	   		};
 
 	   		jQuery.ajax({
 	   			type: "POST",
+	   			// contentType : "application/json",
 	   			url: url,
-	   			data: data,
+	   			contentType: 'application/json; charset=utf-8',
+			    dataType: 'json',
+			    data: JSON.stringify(data),
+	   			// data: data,
 	   			success: function(data){
 	   				console.log("success", data);	
 	   			}
