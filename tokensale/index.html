@@ -2259,26 +2259,26 @@
 		            <h2>Contribution Agreement & Terms and Conditions</h2>
 		            <h5>You must read and agree to the following information before you can proceed.</h5> 
 		            
-							<div role="form" class="wpcf7" id="wpcf7-f78-o3" lang="en-US" dir="ltr"> <!--action="https://formspree.io/tonymchaw@gmail.com" method="POST" -->
+							<div role="form" class="wpcf7" id="wpcf7-f78-o3" lang="en-US" dir="ltr">
 							<div class="screen-reader-response"></div>
 							<div>
 									<div class="checkboxes-b">
 										<div class="term-links">
 											<a target="_blank" id="terms-conditions-link" href="./COINTOKEN-SALE_files/termsandconditions.txt">Terms and Conditions</a><a target="_blank" id="soma-whitepaper-link" href="../COINTOKEN-HOME_files/FlatlayWhitepaper.pdf">FLATLAY Whitepaper</a><!-- <a target="_blank" id="soma-join-link" href="https://bitsify.net/ico-list/soma-part-5-how-to-join-the-ico/">How to participate in the ICO</a> -->
 										</div>
-										<span class="wpcf7-form-control-wrap checkbox-42"><span class="wpcf7-form-control wpcf7-checkbox wpcf7-validates-as-required chckbx" id="presale-chbx"><span class="wpcf7-list-item first last"><label><input type="checkbox" name="checkbox-42[]" value="I accept the terms and conditions and confirm that I have read FLATLAY Whitepaper" /><span class="wpcf7-list-item-label">I accept the terms and conditions and confirm that I have read the FLATLAY Whitepaper</span></label></span></span></span>
+										<span class="wpcf7-form-control-wrap checkbox-42"><span class="wpcf7-form-control wpcf7-checkbox wpcf7-validates-as-required chckbx" id="presale-chbx"><span class="wpcf7-list-item first last"><label><input type="checkbox" name="checkbox-42[]" value="I accept the terms and conditions and confirm that I have read FLATLAY Whitepaper" id="sale-checkbox"/><span class="wpcf7-list-item-label">I accept the terms and conditions and confirm that I have read the FLATLAY Whitepaper</span></label></span></span></span>
 									</div>
 									<div class="form-b">
 										<div class="form-b-wr-1">
 											<div class="form-b-wr-2">
 												<h3 id="presale-h3">Enter your personal information to digitally sign and agree:</h3>
 												<p><span class="wpcf7-form-control-wrap full-name"><input aria-invalid="false" aria-required="true" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required inptfname" id="sale-full-name" name="full-name" placeholder="Full name" size="40" type="text" value=""></span><br>
-												<span class="wpcf7-form-control-wrap classinptfname"><input aria-invalid="false" aria-required="true" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" id="sale-email" name="email" placeholder="Email" size="40" type="email" value=""></span><br>
+												<span class="wpcf7-form-control-wrap classinptfname"><input aria-invalid="false" aria-required="true" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" id="sale-email" name="class:inptfname" placeholder="Email" size="40" type="email" value=""></span><br>
 												<span class="wpcf7-form-control-wrap eth-address"><input aria-invalid="false" aria-required="true" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required inptfname" id="eth-address" name="eth-address" placeholder="ETH address" size="40" type="text" value=""></span></p>
 												<div style="display: none !important;visibility:hidden !important;">
 													<span class="wpcf7-form-control-wrap partner"><input aria-invalid="false" class="wpcf7-form-control wpcf7-text" id="partner-name" name="partner" size="40" type="text" value=""></span><span class="wpcf7-form-control-wrap contract"><input aria-invalid="false" class="wpcf7-form-control wpcf7-text" id="contract-input" name="contract" size="40" type="text" value=""></span><span class="wpcf7-form-control-wrap amount"><input aria-invalid="false" class="wpcf7-form-control wpcf7-text" id="amount-input" name="amount" size="40" type="text" value=""></span><span class="wpcf7-form-control-wrap bonus"><input aria-invalid="false" class="wpcf7-form-control wpcf7-text" id="bonus-input" name="bonus" size="40" type="text" value=""></span><span class="wpcf7-form-control-wrap get"><input aria-invalid="false" class="wpcf7-form-control wpcf7-text" id="get-input" name="get" size="40" type="text" value=""></span><span class="wpcf7-form-control-wrap eth"><input aria-invalid="false" class="wpcf7-form-control wpcf7-text" id="eth-input" name="eth" size="40" type="text" value=""></span>
 												</div>
-												<p><button id="sale-btn" class="btn btn-default" value="Sign and agree">Sign and agree</button></p> <!--type="submit"-->
+												<p><button id="sale-btn" class="btn btn-default" value="Sign and agree">Sign and agree</button></p>
 											</div>
 										</div>
 									</div>
@@ -2398,33 +2398,36 @@
 
 		// NAME/EMAIL/ETHaddress script //*****************************************************************************************************************************
 		jQuery("#sale-btn.btn.btn-default").click( function(){
-			toTop();
-			jQuery('.step-1').css("display", "none");
-			jQuery('.step-2').css("display","block");
-			var email = document.getElementById('email').value;
 			var name = document.getElementById('sale-full-name').value;
 			var address = document.getElementById('eth-address').value;
 			var email = document.getElementById('sale-email').value;
-						console.log(name, address, email);
-			var url = "https://v1.flat-lay.com/cryptoinfo";
-	   		var data = {
-	   			'name': name,
-	   			'email': email,
-	   			'address': address
-	   		};
+			if(jQuery("#sale-checkbox").is(":checked") && name && address && email){
+				toTop();
+				jQuery('.step-1').css("display", "none");
+				jQuery('.step-2').css("display","block");
+				
+				console.log(name, address, email);
+				var url = "https://v1.flat-lay.com/cryptoinfo";
+		   		var data = {
+		   			'name': name,
+		   			'email': email,
+		   			'address': address
+		   		};
 
-	   		jQuery.ajax({
-	   			type: "POST",
-	   			// contentType : "application/json",
-	   			url: url,
-	   			contentType: 'application/json; charset=utf-8',
-			    dataType: 'json',
-			    data: JSON.stringify(data),
-	   			// data: data,
-	   			success: function(data){
-	   				console.log("success", data);	
-	   			}
-	   		});
+		   		jQuery.ajax({
+		   			type: "POST",
+		   			url: url,
+		   			contentType: 'application/json; charset=utf-8',
+				    dataType: 'json',
+				    data: JSON.stringify(data),
+		   			success: function(data){
+		   				console.log("success", data);	
+		   			},
+		   			error: function(data){
+		   				console.log("error", data);
+		   			}
+		   		});
+	   		}
 		});
 
 		jQuery("#sale-btn").click( function(){
