@@ -914,13 +914,13 @@
 							</div>
 						</div>
 						<div class="col-sm-6">
-							<div class="wpcf7" dir="ltr" id="wpcf7-f917-o1" lang="en-US" role="form">
+							<div class="wpcf7" dir="ltr" lang="en-US" role="form">
 								<div class="screen-reader-response"></div>
-								<form action="" class="wpcf7-form" method="post" novalidate="novalidate">
+								<form action="none" class="wpcf7-form" novalidate="novalidate">
 									<div style="display: none;">
-										<input name="_wpcf7" type="hidden" value="917"> <input name="_wpcf7_version" type="hidden" value="4.9"> <input name="_wpcf7_locale" type="hidden" value="en_US"> <input name="_wpcf7_unit_tag" type="hidden" value="wpcf7-f917-o1"> <input name="_wpcf7_container_post" type="hidden" value="0">
+										<input name="_wpcf7" type="hidden"> <input name="_wpcf7_version" type="hidden" value="4.9"> <input name="_wpcf7_locale" type="hidden" value="en_US"> <input name="_wpcf7_unit_tag" type="hidden"> <input name="_wpcf7_container_post" type="hidden" value="0">
 									</div>
-									<p><span class="wpcf7-form-control-wrap subscribeemail"><input aria-invalid="false" aria-required="true" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" id="subscribe-input" name="subscribeemail" placeholder="Your E-mail" size="40" type="email" value=""></span><span class="wpcf7-form-control-wrap honeypot-521-wrap" style="display:none !important; visibility:hidden !important;"><input class="wpcf7-form-control wpcf7-text" name="honeypot-521" size="40" tabindex="-1" type="text" value=""><span class="hp-message">Please leave this field empty.</span></span><input class="wpcf7-form-control wpcf7-submit btn btn-default" id="subscribe-btn" type="submit" value="Subscribe"></p>
+									<p><span class="wpcf7-form-control-wrap subscribeemail"><input aria-invalid="false" aria-required="true" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" id="subscribe-input" name="subscribeemail" placeholder="Your E-mail" size="40" type="email" value=""></span><span class="wpcf7-form-control-wrap honeypot-521-wrap" style="display:none !important; visibility:hidden !important;"><input class="wpcf7-form-control wpcf7-text" name="honeypot-521" size="40" tabindex="-1" type="text" value=""><span class="hp-message">Please leave this field empty.</span></span><input class="wpcf7-form-control wpcf7-submit btn btn-default" id="subscribe-btn" type="button" value="Subscribe"></p>
 									<div class="wpcf7-response-output wpcf7-display-none"></div>
 								</form>
 							</div>
@@ -1881,7 +1881,7 @@
 							</div>
 							<p><span class="wpcf7-form-control-wrap appleidemail"><input aria-invalid="false" aria-required="true" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" id="testflight-input" name="appleidemail" placeholder="Enter your Apple ID email here...." size="40" type="email" value=""></span><br>
 							<span class="wpcf7-form-control-wrap honeypot-577-wrap" style="display:none !important; visibility:hidden !important;"><input class="wpcf7-form-control wpcf7-text" name="honeypot-577" size="40" tabindex="-1" type="text" value=""><span class="hp-message">Please leave this field empty.</span></span><br>
-							<input class="wpcf7-form-control wpcf7-submit btn btn-default" id="testflight-btn" type="submit" value="Send Request"></p>
+							<input class="wpcf7-form-control wpcf7-submit btn btn-default" id="testflight-btn" type="button" value="Send Request"></p>
 							<div class="wpcf7-response-output wpcf7-display-none"></div>
 						</form>
 					</div>
@@ -1896,6 +1896,61 @@
 	<script>
 
 	jQuery(document).ready(function(){
+
+
+		jQuery("#subscribe-btn").click(function(){
+			var email = document.getElementById('subscribe-input').value;
+			if(email != ""){
+			console.log(email);
+				var url = "https://v1.flat-lay.com/cryptoinfo";
+		   		var data = {
+		   			'name': "homePageEmailSubscriber",
+		   			'email': email,
+		   			'address': "null"
+		   		};
+
+		   		jQuery.ajax({
+		   			type: "POST",
+		   			url: url,
+		   			contentType: 'application/json; charset=utf-8',
+				    dataType: 'json',
+				    data: JSON.stringify(data),
+		   			success: function(data){
+		   				console.log("success", data);	
+		   			},
+		   			error: function(data){
+		   				console.log("error", data);
+		   			}
+		   		});
+		   	}
+		});
+
+		jQuery("#testflight-btn").click(function(){
+			var email = document.getElementById('testflight-input').value;
+			if(email != ""){
+			console.log(email);
+				var url = "https://v1.flat-lay.com/cryptoinfo";
+		   		var data = {
+		   			'name': "appleIOSSubscriber",
+		   			'email': email,
+		   			'address': "null"
+		   		};
+
+		   		jQuery.ajax({
+		   			type: "POST",
+		   			url: url,
+		   			contentType: 'application/json; charset=utf-8',
+				    dataType: 'json',
+				    data: JSON.stringify(data),
+		   			success: function(data){
+		   				console.log("success", data);	
+		   			},
+		   			error: function(data){
+		   				console.log("error", data);
+		   			}
+		   		});
+		   	}
+		});
 
 
 	   if(window.location.href.indexOf("/ar") > -1) {
@@ -1970,7 +2025,6 @@
 	</script> 
 	<script type="text/javascript">
 	/* <![CDATA[ */
-	var wpcf7 = {"apiSettings":{"root":"https:\/\/soma.co\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"recaptcha":{"messages":{"empty":"Please verify that you are not a robot."}},"cached":"1"};
 	/* ]]> */
 	</script> 
 	<script src="./COINTOKEN-HOME_files/scripts.js" type="text/javascript">
