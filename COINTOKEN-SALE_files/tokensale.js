@@ -611,7 +611,7 @@ jQuery(function () {
         tokensSold = 0,
 
         // constant
-        ratio = 1000,
+        ratio = 1400,
         decimals = Math.pow(10, 18),
 
         // functions
@@ -620,7 +620,7 @@ jQuery(function () {
 
     updateContribAmount = function () {
         var contrib_eth = jQuery("#spinner").val(),
-            contrib_amount = contrib_eth * 1000,
+            contrib_amount = contrib_eth * 1400,
             contrib_bonus = 0;
 
         jQuery(".contrib_eth").text(contrib_eth);
