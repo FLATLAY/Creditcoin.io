@@ -1161,21 +1161,30 @@
 			<div class="container ico-details">
 				<div class="row">
 					<div class="col-sm-offset-2 col-sm-3">
-						<span class="pre-title">Supply</span>
+						<span class="pre-title desktop">Supply</span>
 					</div>
 					<div class="col-sm-3">
-						<span class="pre-title">Required limit</span>
+						<span class="pre-title desktop">Required limit</span>
 					</div>
 					<div class="col-sm-3">
-						<span class="pre-title">Value</span>
+						<span class="pre-title desktop">Value</span>
 					</div>
 				</div>
 				<div class="row">
+					<div class="col-sm-offset-2 col-sm-3 mobiletitle">
+						<span class="pre-title">Supply</span>
+					</div>
 					<div class="col-sm-offset-2 col-sm-3">
 						<span class="ico-value">100,000,000 CCOIN</span>
 					</div>
+					<div class="col-sm-3 mobiletitle">
+						<span class="pre-title">Required limit</span>
+					</div>
 					<div class="col-sm-3">
 						<span class="ico-value">70,000,000 CCOIN</span>
+					</div>
+					<div class="col-sm-3 mobiletitle">
+						<span class="pre-title">Value</span>
 					</div>
 					<div class="col-sm-3">
 						<span class="ico-value">1 ETH = 1400 CCOIN</span>
@@ -1191,6 +1200,19 @@
 				</div>
 				</div>
 			</div>
+			<style>
+				.mobiletitle{
+					display: none !important;
+				}
+				@media(max-width: 767px){
+					.pre-title.desktop{
+						display: none !important;
+					}
+					.mobiletitle{
+						display: block !important;
+					}
+				}
+			</style>
 		</section>
 		<div class="grey-bg">
 			<section class="home-aple-release-section dark-bg" id="roadmap">
