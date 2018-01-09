@@ -337,6 +337,10 @@ Header
     font-size: 0;
     margin: 0 9px;
 }
+.header .social-icons .social-icons-item.reddit{
+    background: url(../../COINTOKEN-HOME_files/reddit.png) no-repeat center;
+    background-size: 25px auto;
+}
 .header .social-icons .social-icons-item.bitcointalk{
     background: url(../../COINTOKEN-HOME_files/bitcoin-logo.png) no-repeat center;
     background-size: 25px auto;
