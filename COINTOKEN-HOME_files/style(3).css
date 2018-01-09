@@ -344,19 +344,19 @@ Header
     background-size: 25px auto;
 }
 .header .social-icons .social-icons-item.slack{
-    background: url(https://soma.co/wp-content/uploads/2017/07/Slack_Mark_Monochrome_Black-w.png) no-repeat center;
+    background: url(./slack.png) no-repeat center;
     background-size: 25px auto;
 }
 .header .social-icons .social-icons-item.twitter{
-    background: url(https://soma.co/wp-content/uploads/2017/07/iconmonstr-twitter-4-w.png) no-repeat 0 0;
+    background: url(./twitter.png) no-repeat 0 0;
     background-size: 25px auto;
 }
 .header .social-icons .social-icons-item.fb{
-    background: url(https://soma.co/wp-content/uploads/2017/07/iconmonstr-facebook-4-w.png) no-repeat 0 0;
+    background: url(./facebook.png) no-repeat 0 0;
     background-size: 25px auto;
 }
 .header .social-icons .social-icons-item.github{
-    background: url(https://soma.co/wp-content/uploads/2017/07/iconmonstr-github-1-w.png) no-repeat 0 0;
+    background: url(./github.png) no-repeat 0 0;
     background-size: 26px auto;
 }
 .header .navbar .menu li a{
