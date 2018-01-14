@@ -145,6 +145,7 @@
 					</div>
 				</div>
 			</div><!-- /.navbar-collapse -->
+			<a class="btn btn-primary contribute-btn" href="https://docs.google.com/forms/d/e/1FAIpQLSfZNi2cQQ4NQweYkxe2doYSp5ZYg1FVD6_yMva-07Tmpe0LXg/viewform?usp=sf_link" target="_blank">Register for Bounty</a>
 		</nav>
 	</header>
 	<style>
@@ -721,19 +722,6 @@
 	   line-height: 1.2;
 	   font-size: 23px;
 	}
-	.contribute-btn{
-	   background: #fa910a !important;
-	   font-size: 18px !important;
-	   padding: 12px 30px !important;
-	   border: 1px solid #fa910a !important;
-	}
-	.contribute-btn:hover, .contribute-btn:focus{
-	   background: #fa910a !important;
-	   font-size: 18px !important;
-	   padding: 12px 30px !important;
-	   border: 1px solid #fa910a !important;
-	   opacity: 0.9 !important;
-	}
 	.get-wallet-btn{
 	   margin-left: 15px;
 	}
@@ -949,7 +937,41 @@
 		}
 		#mainImage{
 			width: 100%;
-			margin-top: 100px;
+			margin-top: 150px;
+		}
+		.contribute-btn{
+		   background: #a000fd !important;
+		   font-size: 22px !important;
+		   padding: 12px 30px !important;
+		   border: 1px solid #a000fd !important;
+		   height: 50px;
+		   width: 260px;
+		   text-align: center;
+		   line-height: 50px;
+		   padding: 0 !important;
+		   position: absolute;
+		   margin: auto;
+		   left: 0;
+		   right: 0;
+		   margin-top: 50px;
+		}
+		.contribute-btn:hover, .contribute-btn:focus{
+		   background: #a000fd !important;
+		   font-size: 22px !important;
+		   padding: 0 !important;
+		   border: 1px solid #a000fd !important;
+		   opacity: 0.9 !important;
+		}
+		@media(max-width: 768px){
+			.contribute-btn{
+				margin-top: 30px;
+			}
+		}
+		@media (max-width: 480px) {
+		   .contribute-btn {
+		       font-size: 22px !important;
+		       margin-top: 0;
+		   }
 		}
 	</style>
 </body>
