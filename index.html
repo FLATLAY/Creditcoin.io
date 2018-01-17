@@ -2428,25 +2428,25 @@
 	</div>
 
 	<script>
-	$(document).ready(function(){
+	jQuery(document).ready(function(){
 	    /* Get iframe src attribute value i.e. YouTube video url
 	    and store it in a variable */
-	    var url = $("#howitworks").attr('src');
+	    var url = jQuery("#howitworks").attr('src');
 	    
 	    /* Assign empty url value to the iframe src attribute when
 	    modal hide, which stop the video playing */
-	    $("#myModal").on('hide.bs.modal', function(){
-	        $("#howitworks").attr('src', '');
+	    jQuery("#myModal").on('hide.bs.modal', function(){
+	        jQuery("#howitworks").attr('src', '');
 	    });
 	    
 	    /* Assign the initially stored url back to the iframe src
 	    attribute when modal is displayed again */
-	    $("#myModal").on('show.bs.modal', function(){
-	        $("#howitworks").attr('src', url);
+	    jQuery("#myModal").on('show.bs.modal', function(){
+	        jQuery("#howitworks").attr('src', url);
 	    });
 
-	    $("#myModal").on('hide.bs.modal', function (e) {
-		    $("#myModal iframe").attr("src", $("#myModal iframe").attr("src"));
+	    jQuery("#myModal").on('hide.bs.modal', function (e) {
+		    jQuery("#myModal iframe").attr("src", jQuery("#myModal iframe").attr("src"));
 		});
 	});
 	</script>
