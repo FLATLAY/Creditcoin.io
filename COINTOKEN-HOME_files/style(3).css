@@ -1805,7 +1805,8 @@ margin-right: auto;
 background-color: black;
 }
 .navbar-toggle {
-    position: relative;
+    /*position: relative;*/
+    position: absolute;
     float: right;
     padding: 9px 10px;
     margin-top: 8px;
@@ -1817,6 +1818,8 @@ background-color: black;
     border-radius: 100px;
     height: 45px;
     width: 45px;
+    right: 0;
+    z-index: 100;
 }
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
     background-color: black;
@@ -1825,6 +1828,7 @@ background-color: black;
     background-color: #fff;
 }
 .header .navbar-collapse {
+    position: absolute;
    float: none;
     width: 100%;
     background-color: black;

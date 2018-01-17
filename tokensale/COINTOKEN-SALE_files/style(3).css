@@ -869,7 +869,10 @@ width:100%;
     border-top-right-radius: 0;
 }
 .home-timer-section{
-    background: none;
+    /*background: none;*/
+    background: linear-gradient(rgba(0,0,0,0.5), 
+        rgba(0,0,0,0.5)), black 
+        url(./background.jpg) no-repeat center;
 }
 .home-timer-section .container{
     background: #f5f6fa;
