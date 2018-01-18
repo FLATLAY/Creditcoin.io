@@ -103,7 +103,7 @@
 			<div class="navbar-header">
 				<button class="navbar-toggle collapsed" data-target=".navbar-collapse" data-toggle="collapse" type="button"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button>
 			</div><!-- Collect the nav links, forms, and other content for toggling -->
-			<a href="https://cointoken.io/tokensale/#media">
+			<a>
 				<img id="ratingsBadge" src="../COINTOKEN-HOME_files/ratings.png"/>
 				<!-- <img id="ratingsBadgeMobile" src="../COINTOKEN-HOME_files/ratings1.png"/> -->
 			</a>
@@ -944,7 +944,7 @@
 						<a href="#myModal" data-toggle="modal">
 							<img style="width: 300px; margin-top: 30px; margin-bottom: 0px;" src="../COINTOKEN-HOME_files/creditcoinvideo.png">
 						</a>
-						<a href="https://cointoken.io/tokensale/#media">
+						<a>
 							<img id="ratingsBadgeMobile" src="../COINTOKEN-HOME_files/ratings1.png"/>
 						</a>
 						<h2>The Creditcoin token pre-sale begins in:</h2>
@@ -1412,7 +1412,7 @@
 						<a href="http://www.4-traders.com/SHOPIFY-INC-US-22283351/news/Shopify-US-Flatlay-Announces-Blockchain-Integrations-Bridging-Gaps-for-Brands-Influencers-25633964/" target="blank_"><img class="img-responsive" src="../COINTOKEN-HOME_files/4-traders.png"></a>
 					</div> -->
 					<div class="col-sm-3">
-						<a href="https://tokenmarket.net/blockchain/ethereum/assets/flatlay-r-with-creditcoin/" target="blank_"><img class="img-responsive" src="./COINTOKEN-HOME_files/tokenmarket.png"></a>
+						<a href="https://tokenmarket.net/blockchain/ethereum/assets/flatlay-r-with-creditcoin/" target="blank_"><img class="img-responsive" src="../COINTOKEN-HOME_files/tokenmarket.png"></a>
 					</div>
 					<div class="col-sm-3">
 						<a href="https://www.shapeshiftreport.co/articles/fashion-tech-startups-to-watch" target="blank_"><img class="img-responsive" src="../COINTOKEN-HOME_files/shapeshift.png"></a>
@@ -2959,6 +2959,11 @@
 
 	    jQuery("#myModal").on('hide.bs.modal', function (e) {
 		    jQuery("#myModal iframe").attr("src", jQuery("#myModal iframe").attr("src"));
+		});
+
+		jQuery("#ratingsBadge").click(function() {
+			console.log("ratingsBadge clicked");
+			jQuery('html, body').animate({scrollTop: jQuery("#media").offset().top -100}, 300, 'linear');
 		});
 	});
 	</script>
