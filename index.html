@@ -111,7 +111,7 @@
 			<a>
 				<img id="ratingsBadge" src="./COINTOKEN-HOME_files/ratings.png"/>
 			</a>
-				<a class="btn btn-primary btn-primary-2 rewardsButton" href="http://www.cointoken.io/tokensale" style="color: #ffffff; outline: none !important; background: rgb(120, 57, 234); line-height: 45px; padding: 18px 30px; width: 150px; margin: auto; display: block; font-size: 15px; height: 45px; padding: 0; margin-top: 7px;">Join Whitelist</a>
+				<a class="btn btn-primary btn-primary-2 rewardsButton rewardsButtonMobile" href="http://www.cointoken.io/tokensale" style="color: #ffffff; outline: none !important; background: rgb(120, 57, 234); line-height: 45px; padding: 18px 30px; width: 150px; margin: auto; display: block; font-size: 15px; height: 45px; padding: 0; margin-top: 7px;">Join Whitelist</a>
 			<style>
 				#ratingsBadge{
 					position: absolute;
@@ -123,11 +123,29 @@
 				#ratingsBadge:hover{
 					cursor: pointer;
 				}
+				#ratingsBadgeMobile{
+					display: none;
+				}
 
-				@media(max-width: 550px){
+				.rewardsButtonMobile{
+					display: none !important;
+				}
+				@media(max-width: 650px){
+					.rewardsButtonMobile{
+						display: block !important;
+					}
 					#ratingsBadge{
-						width: 100px;
-						top: 75px;
+						display: none;
+					}
+					#ratingsBadgeMobile{
+						display: block;
+						/*position: absolute;*/
+						margin: auto;
+						top: 0;
+						left: 0;
+						right: 0;
+						width: 300px;
+						/*width: 100%;*/
 					}
 				}
 			</style>
@@ -1042,6 +1060,9 @@
 					</div>
 					<a href="#myModal" data-toggle="modal">
 							<img style="width: 300px; margin-top: 10px; margin-bottom: 10px;" src="./COINTOKEN-HOME_files/creditcoinvideo.png">
+					</a>
+					<a>
+						<img style="margin-top: -9px;"id="ratingsBadgeMobile" src="./COINTOKEN-HOME_files/ratings1.png"/>
 					</a>
 					<div class="row" style="margin-top: 20px; margin-bottom: 15px;">
 						<a class="btn btn-primary btn-primary-2 rewardsButton" href="http://www.cointoken.io/bounty" style="color: #ffffff; outline: none !important; background: rgb(120, 57, 234); line-height: 1.0; padding: 18px 30px; width: 300px; margin: auto; display: block; font-size: 22px;">Rewards Program</a>
