@@ -1,0 +1,141 @@
+Date Posted: 1/28/18
+Last Updated: 1/28/18
+Privacy Policy 
+Our Privacy Policy explains how Flatlay and Creditcoin (“CCOIN,” “we,” “us,” “our”) and some of the companies we may work with collect, use, or disclose personal information and data we receive through your use of our website, mobile applications, and any other online services we offer (collectively, the “Services”). The policy also gives you choices about the collection and use of your information. 
+Please read the Privacy Policy carefully before you start to use our Services. By using the Services, you agree to be bound and abide by the Terms of Use and this Privacy Policy. If you do not agree to the Terms of Use and our Privacy Policy, or if you violate them in any way, your right to access or use the Services will be terminated. 
+Please see the Terms of Use for restrictions on your legal rights in any dispute involving our Services, Terms of Use or Privacy Policy. 
+You understand that we may revise and update the Privacy Policy from time to time in our sole discretion. Where appropriate, we may seek to provide advance notice before an updated Privacy Policy becomes effective. You agree that we may notify you of the updated Privacy Policy by posting it through the Services (such as on our website), and that your use of the Services after the effective date of the updated Privacy Policy (or engaging in such other conduct as we may reasonably specify) constitutes your agreement to the updated Privacy Policy. It is your responsibility to check the Privacy Policy posted on the Services periodically so that you are aware of any changes, as they are binding on you. 
+By using the Services, you represent and warrant that you are of legal age to form a binding contract with CCOIN and meet all of the eligibility requirements in the Terms of Use. 
+1. INFORMATION WE COLLECT 
+We may collect the following types of information. • Information you voluntarily provide: 
+-	Username and Password 
+-	Personal Information (Examples of Personal Information include your name, email address, address, and phone number)
+-	Payment information
+
+If you use the Service to make or receive payments, we will also collect certain payment information, such as Ether, wallet, credit card, PayPal or other financial account information, and billing address. CCOIN and Flatlay is not responsible for any harm that may occur as a result of you providing inaccurate payment information. 
+-	User Contributions 
+			Information you provide to post to the Services (e.g., photos, comments, and other materials) along with any information you provide about yourself and the content. 
+
+			Information sent either one-to-one or within a limited group using our message, chat, post or similar functionality, where we are permitted by law to collect this information 
+
+Communications between you and CCOIN. For example, we may send you emails regarding CCOIN, payment confirmations, the Services, or technical and security notices. Note that you may not be able to opt out of certain Services-related e-mails. 
+
+
+
+Information that is passively collected: 
+-	Analytics information 
+We may use third-party analytics tools to help us measure traffic, usage, and sales trends by your use of our Services. These tools collect information sent by your device or the Services, including the web pages you visit, add- ons, and other information that assists us in improving the Services. This analytical information is not covered by this policy because it does not identify any particular individual. 
+-	Cookies and similar technologies: 
+			When you visit the Services, we may use “cookies” which are small files 
+stored as text on a computer hard drive. 
+
+These “cookies” and other similar technologies like pixels, web beacons (also known as “clear GIFs”) and local storage may be used to collect information about how you use the Services and provide features to you. 
+
+			We may also ask advertisers or other partners to serve ads or services to your devices, which may use cookies or similar technologies placed by us or the third party. 
+
+			If a visitor does not want information collected through the use of cookies, most browsers allow the visitor to reject cookies, however, you acknowledge that some browsers or web pages may not have opt-out functionalities and you use them at your own risk. We may share non- Personal Information obtained via cookies with our advertisers and affiliates. 
+-	Mobile Device Unique Identifier:
+When you use a mobile device to connect to our Services via a service provider that uniquely identifies your mobile device, we may use this unique identifier to offer you extended services and/or functionality. 
+Certain Services may require the collection of your mobile phone number. We may associate that mobile phone number with the mobile device unique identifier. 
+
+
+-	Physical location information 
+
+Depending on the Services you use or when you download our mobile applications, we may use and store GPS, WiFi and/or cell tower information relating to your device, in combination with other location-based information such as your IP address, your billing postal code provided by your carrier, or your registration location, to provide enhanced location- based services, and to serve location-targeted advertising, search results, and other content. 
+
+This information may be collected when our mobile application or some other Services may be running in the foreground (on- screen use) or background (off-screen use) of your device. Such information may also be collected through your purchase and use of Tokens to assist us in determining where transactions take place and to better track the use of Tokens and the utilities for which they are used. 
+
+-	Log file information 
+			Log file information may be automatically reported by your browser each time you make a request to access (i.e., visit) the Services. It can also be provided when the content of the Services is downloaded to your browser or device. 
+
+			When you use the Services, our servers may automatically record certain log file information, including your web request, Internet Protocol (“IP”) address, browser type, referring/exit pages and URLs, number of clicks and how you interact with links on the Services, domain names, landing pages, pages viewed, and other such information. We may also collect similar information from emails sent to our users which then help us track which emails are opened and which links are clicked by recipients. The information allows for more accurate reporting and improvement of the Services. 
+
+	 -  Metadata 
+
+			 Metadata is usually technical data that is associated with User Contributions. For example, Metadata can indicate how, when and by whom a User Contribution was collected and how that content is formatted. 
+
+			Metadata associated with certain types of User Contributions, such as pictures, may also include location information about where the Content was recorded (i.e., geotags). 
+
+-	Information received from third parties 
+
+We may receive information about you, including personal information, from third parties such as social networking websites (subject to their representation that they have a legal right to share such information), to supplement the information we maintain about you. If we do so, this policy governs any combined information that we maintain in personally identifiable format. 
+• Additional Information 
+We may require that you provide to us, or to our nominee, immediately upon request, information that we, in our sole discretion, deem to be required to maintain compliance with any federal, state, local, domestic or foreign law, regulation or policy, including any “Know Your Customer” requirements and policies. Such information may include a passport, driver’s license, utility bill, photograph of you, government identification cards or sworn statements, and we, or our nominee, may keep a copy of such information for our records. 
+We may determine, in our sole discretion, that it is necessary to obtain certain information about you in order to comply with applicable laws or regulations in connection with selling Tokens to you. You agree to provide us such information promptly upon request, and you acknowledge that we may refuse to sell Tokens to you until you provide such requested information and we have determined that it is permissible to sell you Tokens under any applicable laws or regulations. 
+• Your Information 
+We may use aggregate statistical information about your activity, including your activity on the CCOIN or Flatlay Site or platform and logins to various websites, for marketing or any other purpose in our sole discretion. We may use your internet protocol address to verify your purchase of Tokens. However, we will not release your personally-identifying information to any third party without your consent, except as not prohibited by law or as set forth in these Terms, the Terms of Use, our Privacy Policy or any Terms and Policies. 
+
+2. HOW WE USE YOUR INFORMATION 
+In general, we use Personal Information to: 
+• Provide you with customer support; 
+¥	Comply with third party contracts; 
+
+¥	Help you efficiently access your information after you sign in; 
+
+¥	Remember information so you will not have to re-enter it during your visit or the next time you visit the Services; 
+
+¥	Provide personalized content and information to you and others, which could include online ads or other forms of marketing; 
+
+¥	Provide, improve, test, and monitor the effectiveness of the Services; 
+
+¥	Develop and test new products and features; 
+
+¥	Monitor metrics such as total number of visitors, traffic, and demographic patterns; or 
+
+¥	Diagnose or fix technology problems. We may use Personal Information for any purpose otherwise allowed by applicable law. 
+
+3. SHARING OF YOUR INFORMATION 
+We are not in the business of selling personal information about our users to third parties without your consent, except as noted in this Policy. 
+• Parties with whom we may share your information: 
+-	Third Party Affiliates 
+We may either employ or partner with third party companies for the purposes of advertising, facilitating, or enhancing our Services. In order for these third party companies to carry out their services, your personal Information and other data collected may be shared with these third party companies (including, without limitation, maintenance services, database management, web analytics and improvement of our Services) 
+-	Government, Regulatory Agencies, Courts, and Law Enforcement 
+We will access, preserve, and share any information about you, without your consent, to government or law enforcement officials or private parties as we in good faith believe necessary or appropriate to respond to claims and legal process (including, but not limited to, subpoenas), to comply with applicable laws, to protect the property and rights of CCOIN, you or a third party, to protect the safety of the public or any person, or to prevent or stop activity we may consider to pose a risk of being, or is illegal, unethical or legally actionable. This may include responding to legal requests from jurisdictions outside of the United States where we have a good faith belief that the response is required by law in that jurisdiction, affects users in that jurisdiction, and is consistent with internationally recognized standards. 
+We may also access, preserve and share information when we have a good faith belief it is necessary to: detect, prevent and address fraud and other illegal activity; to protect ourselves, you and others, including as part of audits, inquiries or investigations; and to prevent death or imminent bodily harm. Information we receive about you may be accessed, processed and retained for an extended period of time when it is the subject of a legal request or obligation, governmental investigation, or investigations concerning possible violations of our terms or policies, or otherwise to prevent harm. 
+• Parties with whom you may choose to share your User Contributions 
+If you voluntarily share or submit any information (e.g., name) or content (e.g., picture), or commentary (e.g., forums, message boards, chats) for posting to the Services, or link it to any social media platforms, that post and any content or information associated with it may become available to the public. 
+
+4. HOW WE STORE YOUR INFORMATION 
+Storage and Processing: 
+By registering for and using the Services you consent to the transfer of information to anywhere, including outside of the U.S., where the Services or its Service Providers maintain facilities and the use and disclosure of information about you as described in this Privacy Policy. 
+
+
+Although we implement reasonable administrative, physical and electronic security measures designed to protect your Personal Information from unauthorized access, we cannot ensure the security of any information you transmit to or guarantee that this information will not be accessed, disclosed, altered, or destroyed. We will make any legally required disclosures of any breach of the security, confidentiality, or integrity of your unencrypted electronically stored Personal Information. 
+To the extent the law of your jurisdiction allows for notification of a breach via e-mail or conspicuous posting on the Services, you agree to accept notice in that form. 
+
+5. YOUR CHOICES ABOUT YOUR INFORMATION 
+Your account information and profile/privacy settings: 
+-	Text messaging 
+You may opt-out of receiving text messages by replying “STOP” to any text message received. 
+ -  Emails 
+In all promotional emails, you will be given the opportunity to opt-out of receiving such messages in the future by clicking on the link at the bottom of the email that will allow you to unsubscribe. 
+
+Please note, we reserve the right to send you Services-related communications (e.g., account verification, payment confirmations, technical and security notices) that you may not opt-out of. 
+
+Even if you have unsubscribed from receiving promotional emails from us, we may send you other types of important email communications without offering you the opportunity to opt-out of receiving them, such as customer service announcements and administrative notices. 
+
+-	Cookies 
+
+If a visitor does not want information collected through the use of cookies, most browsers allow the visitor to reject cookies. You acknowledge, however, that some browsers or web pages may not give you the option to reject cookies, and you use them at your own risk. 
+-	Mobile device unique identifier 
+Unless you choose to opt out, we may also share your mobile phone number with certain select third parties. You can opt out by changing the privacy settings on your cell phone. 
+6. WHAT HAPPENS IN THE EVENT OF A CHANGE OF CONTROL 
+We may share all or some of your Personal Information with any of our subsidiaries, joint ventures, affiliates or other companies under common control to be used in a manner consistent with this Privacy Policy. Additionally, in the event we go through or undergo due diligence in anticipation of a business transition such as a merger, acquisition by another company, or sale of all or a portion of our assets, your Personal Information may be among the assets transferred. You acknowledge that such transfers may occur and are permitted by this Privacy Policy, and that any entity that acquires such Personal Information by transfer may continue to process your Personal Information as set forth in this Notice. 
+If we transfer part or the whole of CCOIN or our assets to another organization, your information such as name and email address, User Contributions and any other information CCOIN has collected may be among the items transferred. You will continue to own your User Contributions. The buyer or transferee will have to honor the commitments we have made in this Privacy Policy. 
+
+
+7. HOW LONG WE KEEP YOUR INFORMATION 
+User Contributions that you provide to the Services may be retained and made publicly available on the Services indefinitely, consistent with the Terms of Use. 
+8. CHILDREN’S PRIVACY 
+CCOIN does not knowingly collect or solicit any information from anyone under the age of 13 or knowingly allow such persons to register for the Services. The Services and their content are not directed at children under the age of 13. In the event that we learn that we have collected personal information from a child under age 13 without parental consent, we will delete that information as quickly as possible. If you believe that we might have any information from or about a child under 13, please contact CCOIN using the contact information provided on our website or in our Terms of Use. 
+IF YOU ARE A CALIFORNIA RESIDENT UNDER THE AGE OF 18, DO NOT SHARE ANY PERSONAL INFORMATION ON ANY FORUM OR MESSAGE BOARD. If you do post any Personal Information, you can remove it using the available link on the Website or request that it be removed by contacting us at Support@theflatlay.com for assistance. We will do our best to ensure that your post is completely removed, however, given the public nature of the Internet, you acknowledge that such a removal may not be complete. 
+9. OTHER WEB SITES AND SERVICES 
+The Services may contain links to other websites or services that we do not own or operate. We are not responsible for the practices employed by any websites or services linked to or from the Services, including the information or content contained within them. Your browsing and interaction on any third-party website or service, including those that have a link on our Services, are subject to that third party’s own rules and policies, not ours. 
+In addition, you agree that we are not responsible and do not have control over any third-parties that you authorize to access your User Contributions. If you are using a third-party website or service and you allow them to access your User Contributions you do so at your own risk. 
+10. INTERNATIONAL CONSIDERATIONS 
+We have developed data practices designed to assure information is appropriately protected but we cannot always know where personal information may be accessed or processed. While our primary data centers are in the United States we may transfer personal information or other information to our offices outside of the United States. In addition, we may employ other companies and individuals to perform functions on our behalf. If we disclose personal information to a third party or to our employees outside of United States we will seek assurances that any information we may provide to them is safeguarded adequately and in accordance with this Privacy Policy and the requirements of any applicable privacy laws. 
+If you are visiting from the European Union or other regions with laws governing data collection and use, please note that you are agreeing to the transfer of your personal data, including sensitive data, by us from your region to countries which do not have data protection laws that provide the same level of protection that exists in countries in the European Economic Area, including the United States. By providing your personal information, you consent to any transfer and processing in accordance with this Policy. 
+11. HOW TO CONTACT US 
+Please direct questions or concerns about this Privacy Policy or the Services to CCOIN at support@theflatlay.com or by mail to Harrison Burka at Stradling Yocca Carlson & Rauth, P.C.
+660 Newport Center Drive, Suite 1600 | Newport Beach, CA 92660
+The effective date of this Privacy Policy is 1/28/18. 
