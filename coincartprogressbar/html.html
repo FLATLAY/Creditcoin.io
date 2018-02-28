@@ -1,3 +1,46 @@
+<head>
+	<script>
+	setInterval(() => {
+	  fetch('https://coin-cart.firebaseio.com/storefronts/-L2bvPJ3pD3MvrWw9Oqc/stats.json')
+	  .then(response => {
+	    return response.json();
+	  })
+	  .then(data => {
+	    const PRESOLD  = 20487285;
+	    const QUANTITY = 28000000;
+	    
+	    data.claimedQuantity  += PRESOLD; 
+	    data.availableQuantity = QUANTITY - data.claimedQuantity;    
+	    data.claimedQuantityPercent = Math.round((data.claimedQuantity / QUANTITY) * 100); 
+
+	    let elementSold = document.getElementById('sold');
+	    if (data.claimedQuantity < 28000000) {
+	      elementSold.innerText = NUMBER.Display(data.claimedQuantity);
+	    } else {
+	      elementSold.innerText = NUMBER.Display('28,000,000');
+	    }      
+
+	    let elementRemaining = document.getElementById('remaining');
+	    if (data.availableQuantity > 0) {
+	      elementRemaining.innerText = NUMBER.Display(data.availableQuantity);
+	    } else {
+	      elementRemaining.innerText = NUMBER.Display('0');
+	    }     
+
+	    let elementBar = document.getElementById('myBar');
+	    if (data.claimedQuantityPercent < 100) {
+	      elementBar.style.width = data.claimedQuantityPercent + '%';
+	      elementBar.innerText = data.claimedQuantityPercent + '%';
+	    } else {
+	      elementBar.style.width = '100%';
+	      elementBar.innerText = '100%';
+	    }      
+	    
+	  });
+	}, 1000);
+
+	</script>
+</head>
 <div class="hero-progress">
 	<div class="progress-grid">
 		<div class="progress-stat">
@@ -17,3 +60,58 @@
 		</div>   
 	</div>    
 </div>
+
+<style>
+.progress-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr auto 1fr;
+	margin: 0 25%;
+	background: #0e0b20;
+	text-align: left;
+	grid-gap: 20px;
+}
+
+.progress-grid .label {
+	color: #494F6A;
+	font-size: 14px;
+}
+
+.progress-grid .label.border {
+	/* border-bottom: 1px solid #494F6A; */
+	margin-bottom: 5px;
+}
+
+.progress-stat.remaining {
+	text-align: right;
+}
+
+.progress-grid .available {
+	text-align: right;
+}
+
+#myProgress {
+	width: 100%;
+	background-color: rgba(255,255,255, 0.1);
+	grid-column: span 2;
+	height: 30px;
+	/* border-radius: 50px; */
+	overflow: hidden;
+}
+
+#myBar {
+	width: 0;
+	height: 30px;
+	background-color: var(--main-color);
+	text-align: center;
+	line-height: 30px;
+	color: #fff;
+	font-size: 14px;
+}
+
+.sub-progress {
+	grid-column: span 2;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+</style>
