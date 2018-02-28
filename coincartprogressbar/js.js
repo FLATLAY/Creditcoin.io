@@ -36,3 +36,6 @@ setInterval(() => {
     
   });
 }, 1000);
+
+
+// (Reserved+Claimed)/70,000,000
