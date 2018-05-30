@@ -1123,6 +1123,94 @@
 						<!-- <div class="ico-period">
 							21st February - 1st March 2018
 						</div> -->
+
+						<!-- https://coin-cart.firebaseio.com/storefronts/-L2bvPJ3pD3MvrWw9Oqc/stats.json -->
+						<script>
+							jQuery(document).ready(function(){
+								jQuery.getJSON("https://coin-cart.firebaseio.com/storefronts/-L2bvPJ3pD3MvrWw9Oqc/stats.json", function(data){
+									var claimed = data.claimedQuantity;
+									var totalQuantity = 70000000;
+									var claimedRatio = claimed/totalQuantity;
+									console.log("claimedRatio", claimedRatio);
+
+									var stringRatio = claimedRatio.toString();
+									// function moveDecimal(n) {
+									//   var l = n.toString().length-4;
+									//   var v = n/Math.pow(10, l);
+									//   return v;
+									// }
+									// console.log(moveDecimal(claimedRatio));
+									var finalStringRatio = stringRatio.substring(0, 6)*100 + "%";
+
+									jQuery(".raised-block__progress").css("width", finalStringRatio);
+									jQuery(".ratioClaimed").html('<strong>' + finalStringRatio+ '</strong><strong> of Tokens Claimed</strong>');
+								});
+							});
+						</script>
+						<!-- TEST BAR -->
+						<div class="caps">
+							<!-- <span class="softcap">Soft Сap</span>
+							<span class="hardcap">Hard Сap</span> -->
+							<span class="ratioClaimed"><b>43% of Tokens Claimed</b></span>
+						</div>
+						<div class="raised-block__line">
+							<div class="raised-block__progress"></div>		
+							<span class="softcapfringe" style="color:#ffffff">|</span>			 
+						</div>
+
+						<style>
+							.caps {
+								font-size: 16px;
+								position: relative;
+								top: 8px;
+								/*width: 70%;*/
+								color: #333;
+								margin-top: 20px;
+							}
+							.softcap {
+								padding-left:27%;
+								left: 0;
+							}
+							.hardcap {
+								float: right;
+							}
+							.raised-block__line {
+							  width: 100%;
+							  height: 25px;
+							  border-radius: 25px;
+							  background-color: #e2e2e2;
+							  box-shadow: 0px 1px 0 0 #ffffff, inset 0px 1px 2px 0 rgba(35, 31, 32, 0.2);
+							  margin-top: 9px;
+							  position: relative;
+							  width: 70%;
+							  margin-left: auto;
+							  margin-right: auto;
+							}
+
+							.raised-block__progress {
+							  width: 0%;
+							  height: 25px;
+							  /*background-image: linear-gradient(to right, #1f8fa0, #63b86c);*/
+							  background-image: linear-gradient(to right, #1f8fa0, #71e7ca);
+							  box-shadow: inset 0px 1px 0 0 rgba(255, 255, 255, 0.8);
+							  border-radius: 25px;
+							}
+
+							.raised-block__values {
+							  display: flex;
+							  justify-content: space-between;
+							  margin-top: 5px;
+							}
+							.softcapfringe {
+							  padding-left: 15%;
+							  position: absolute;
+							  top: 1px;
+							  color: #ffffff;
+							  font-size: 17px;
+							  left: 0;
+							}
+						</style>
+
 						<div class="ico-period">
 							May 31st 2018 11:59PM PST<br>
 							<a href="https://tokensale.cointoken.io/signup?ref=pre-ico-whitelist-cointoken" target="_blank"><b style="font-size: 20px; color: #422ed9; border-bottom: 3px solid #422ed9;">15% Bonus limited to Phase 2</b></a>
