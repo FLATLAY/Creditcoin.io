@@ -127,7 +127,7 @@
 			<a>
 				<img id="ratingsBadge" src="../COINTOKEN-HOME_files/ratings.png"/>
 			</a>
-				<a class="btn btn-primary btn-primary-2 rewardsButton rewardsButtonMobile" target="_blank" href="https://tokensale.cointoken.io/signup?ref=fintech-cointoken" style="color: #ffffff; outline: none !important; background-image: linear-gradient(0deg, #422ed9 0, #6938e6 50%, #6938e6); line-height: 45px; padding: 18px 30px; width: 200px; margin: auto; display: block; font-size: 15px; height: 45px; padding: 0; margin-top: 7px; min-width: unset;">Erhalte 15% Bonus</a>
+				<a class="btn btn-primary btn-primary-2 rewardsButton rewardsButtonMobile" target="_blank" href="https://tokensale.cointoken.io/signup?ref=fintech-cointoken" style="color: #ffffff; outline: none !important; background-image: linear-gradient(0deg, #422ed9 0, #6938e6 50%, #6938e6); line-height: 45px; padding: 18px 30px; width: 200px; margin: auto; display: block; font-size: 15px; height: 45px; padding: 0; margin-top: 7px; min-width: unset;">Erhalte 10% Bonus</a>
 				<a class="telegramMobile" href="https://t.me/joinchat/GWRQaRI6YfuhR_atPb6mRw" target="_blank"></a>
 			<style>
 				#ratingsBadge{
@@ -1025,13 +1025,13 @@
 						<a>
 							<img id="ratingsBadgeMobile" src="../COINTOKEN-HOME_files/ratings1.png"/>
 						</a>
-						<h2>Creditcoin Privatverkauf 15% Bonus endet:</h2>
+						<h2>Creditcoin Privatverkauf 10% Bonus endet:</h2>
 						<div class="countdown-b">
 							<script type="text/javascript">
 							jQuery(document).ready(function() {
 							  jQuery("#circularcountdown_z3GOg85T").circularCountdown({
 							      startDate:"",
-							      endDate:"2018/06/01 6:59:00",
+							      endDate:"2018/07/01 6:59:00",
 							      timeZone:0,
 							      past:false,
 							      
@@ -1127,7 +1127,7 @@
 						<script>
 							jQuery(document).ready(function(){
 								jQuery.getJSON("https://coin-cart.firebaseio.com/storefronts/-L2bvPJ3pD3MvrWw9Oqc/stats.json", function(data){
-									var claimed = data.claimedQuantity;
+									var claimed = data.claimedQuantity + data.reservedQuantity;
 									var totalQuantity = 70000000;
 									var claimedRatio = claimed/totalQuantity;
 									console.log("claimedRatio", claimedRatio);
@@ -1139,7 +1139,8 @@
 									//   return v;
 									// }
 									// console.log(moveDecimal(claimedRatio));
-									var finalStringRatio = stringRatio.substring(0, 6)*100 + "%";
+									var finalStringRatio = Math.round(100*stringRatio.substring(0, 6)*100)/100 + "%";
+
 
 									jQuery(".raised-block__progress").css("width", finalStringRatio);
 									jQuery(".ratioClaimed").html('<strong>' + finalStringRatio+ '</strong><strong> of Tokens Claimed</strong>');
@@ -1210,8 +1211,8 @@
 							}
 						</style>
 						<div class="ico-period">
-							31. May 2018, 23:59 Uhr<br>
-							<a href="https://tokensale.cointoken.io/signup?ref=fintech-cointoken" target="_blank"><b style="font-size: 20px; color: #422ed9; border-bottom: 3px solid #422ed9;">15% Bonus limitiert auf Phase 2</b></a>
+							June 30th 2018 11:59PM PST<br>
+							<a href="https://tokensale.cointoken.io/signup?ref=fintech-cointoken" target="_blank"><b style="font-size: 20px; color: #422ed9; border-bottom: 3px solid #422ed9;">10% Bonus limitiert auf Phase 3</b></a>
 						</div>
 						<!-- <a id="bountyButton" href="http://www.cointoken.io/bounty">Rewards Program</a> -->
 						<style>
@@ -1454,7 +1455,7 @@
 								</style>
 								<div class="col-4" style="margin-bottom: 70px">
 									<!-- <a class="btn btn-primary contribute-btn" target="_blank" href="https://tokensale.cointoken.io/signup?ref=fintech-cointoken">BUY TOKENS 20% OFF NOW!</a> -->
-									<a class="btn btn-primary contribute-btn" target="_blank" href="https://tokensale.cointoken.io/signup?ref=fintech-cointoken">Erhalte 15% Bonus</a>
+									<a class="btn btn-primary contribute-btn" target="_blank" href="https://tokensale.cointoken.io/signup?ref=fintech-cointoken">Erhalte 10% Bonus</a>
 									<!-- <button class="btn btn-primary contribute-btn" data-target="#agreement" data-toggle="modal">Join Whitelist</button> --><!-- <a class="btn btn-primary get-wallet-btn" href="https://bitsify.net/ico-list/soma-part-5-how-to-join-the-ico/" target="_blank">No wallet? Set it up here!</a> -->
 								</div>
 								<div class="col-1">
