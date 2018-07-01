@@ -577,6 +577,10 @@ width:100%;
     background: #fff url(/wp-content/uploads/2017/07/iconmonstr-android-os-1.png) no-repeat right 20px top 14px;
     background-size: 35px auto;
 }
+.home-what-is-soma-section .btn-app-store.dapp{
+    background: #fff url(https://flat-lay.com/images/flatlay_text_white.png) no-repeat right 20px top 14px;
+    background-size: 35px auto;
+}
 .home-what-is-soma-section .home-what-is-soma-bg{
     background: url(/wp-content/uploads/2017/07/soma_section.gif) no-repeat right -40px;
     background-size: 550px auto;
