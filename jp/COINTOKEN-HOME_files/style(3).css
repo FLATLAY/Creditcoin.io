@@ -172,7 +172,7 @@ body.modal-open {
     background: #f5f6fa;
 }
 .grey-bg .container{
-    padding: 60px 0 80px 0;
+    padding: 10px 0 10px 0;
 }
 .dark-bg{
     background: rgba(0,0,0,0.7);
@@ -891,7 +891,7 @@ width:100%;
     box-shadow: 0 -15px 40px rgba(0, 0, 0, 0.1);
     margin-top: -200px;
     width: 100%;
-    max-width: 1170px;
+    max-width: unset;
     padding: 20px 0 30px 0;
 }
 .home-timer-section .cloud-city-dash{
