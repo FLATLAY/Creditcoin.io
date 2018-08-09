@@ -872,7 +872,7 @@ width:100%;
     box-shadow: 0 -15px 40px rgba(0, 0, 0, 0.1);
     margin-top: -200px;
     width: 100%;
-    max-width: 1170px;
+    /*max-width: 1170px;*/
     padding: 20px 0 30px 0;
 }
 .home-timer-section .cloud-city-dash{
