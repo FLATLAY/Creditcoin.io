@@ -1055,9 +1055,9 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 					<div><a class="btn btn-primary btn-primary-2 desktopButton" href="https://tokensale.cointoken.io/" target="_blank" style="color: #ffffff; outline: none !important; background-image: linear-gradient(0deg, #422ed9 0, #6938e6 50%, #6938e6); line-height: 1.0; padding: 18px 30px; width: 300px;">Join Whitelist</a><div> -->
 					<!-- <div><a class="btn btn-primary btn-primary-2 desktopButton" href="https://tokensale.cointoken.io/" target="_blank" style="color: #ffffff; outline: none !important; background-image: linear-gradient(0deg, #422ed9 0, #6938e6 50%, #6938e6); line-height: 1.0; padding: 18px 30px; width: auto;">JOIN WHITELIST</a><div> -->
 					<div class="row" style="margin-top: 20px; margin-bottom: 15px;">
-						<a class="btn btn-primary btn-primary-2 rewardsButton" href="http://www.cointoken.io/bounty" style="color: #ffffff;outline: none !important;background: #60e2cc;line-height: 1.0;padding: 18px 30px;width: 300px;margin: auto;font-size: 22px;margin-bottom: 10px;">Airdrop</a>
-						<a class="btn btn-primary btn-primary-1 btn-whitepaper" href="./COINTOKEN-HOME_files/ExecutiveSummary.pdf" target="_blank" style="line-height: 1.0; padding: 18px 30px; width: 300px; font-size: 22px;">Основные положения</a>
-						<a class="btn btn-primary btn-primary-1 btn-whitepaper" href="./COINTOKEN-HOME_files/Whitepaper.pdf" target="_blank" style="line-height: 1.0; padding: 18px 30px; width: 300px; font-size: 22px;">Подробный доклад</a>
+						<a class="btn btn-primary btn-primary-1 btn-whitepaper" href="./COINTOKEN-HOME_files/ExecutiveSummary.pdf" target="_blank" style="line-height: 1.0; padding: 18px 30px; width: 300px; font-size: 22px; border-radius: 18px;">Основные положения</a>
+						<a class="btn btn-primary btn-primary-1 btn-whitepaper" href="./COINTOKEN-HOME_files/Whitepaper.pdf" target="_blank" style="line-height: 1.0; padding: 18px 30px; width: 300px; font-size: 22px; border-radius: 18px;">Подробный доклад</a>
+						<a class="btn btn-primary btn-primary-2 rewardsButton" href="http://www.cointoken.io/bounty" style="color: #ffffff;outline: none !important;background: #60e2cc;line-height: 1.0;padding: 18px 30px;width: 300px;margin: auto;font-size: 22px;margin-bottom: 10px; border-radius: 18px;">Airdrop</a>
 					</div>
 				</div>
 
@@ -1407,10 +1407,19 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 					</script>
 
 					<iframe src="https://www.orderbook.io/#/widget/ccoin" id="orderbook_iframe"
-					width="100%" height="551px" allowfullscreen="allowfullscreen"
-					frameborder="0" style="height: 551px; background: #4c4c4c !important; border-radius: 10px;"></iframe>
+					width="100%" height="700px" allowfullscreen="allowfullscreen"
+					frameborder="0" style="height: 700px; background: #000000 !important; border-radius: 10px;"></iframe>
 
 					<!-- Orderbook Widget Ends -->
+
+					<style>
+						.SimpleWidget__bonuses-value{
+							background-color: #60e2cc;
+						}
+						.SimpleWidget__bonuses__countdown{
+							background-image: linear-gradient(0deg, #422ed9 0, #6938e6 50%, #6938e6);
+						}
+					</style>
 					<!-- <div class="ico-period">
 						June 30th 2018 11:59PM PST<br>
 						<a href="https://tokensale.cointoken.io/" target="_blank"><b style="font-size: 20px; color: #422ed9; border-bottom: 3px solid #422ed9;">10% бонус ограничен Фазой 3</b></a>
@@ -1527,7 +1536,65 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 		<section class="home-features-section center" id="features">
 			<div class="container">
 				<div class="col-sm-12">
-					<h2>Особенности</h2><!-- Nav tabs -->
+					<div class="container ico-details">
+						<div class="row">
+							<div class="col-sm-offset-2 col-sm-3">
+								<span class="pre-title desktop">Поставка</span>
+							</div>
+							<div class="col-sm-3">
+								<span class="pre-title desktop">Необходимый лимит</span>
+							</div>
+							<div class="col-sm-3">
+								<span class="pre-title desktop">Стоимость</span>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-offset-2 col-sm-3 mobiletitle">
+								<span class="pre-title">Поставка</span>
+							</div>
+							<div class="col-sm-offset-2 col-sm-3">
+								<span class="ico-value">100,000,000 CCOIN</span>
+							</div>
+							<div class="col-sm-3 mobiletitle">
+								<span class="pre-title">Необходимый лимит</span>
+							</div>
+							<div class="col-sm-3">
+								<span class="ico-value">70,000,000 CCOIN</span>
+							</div>
+							<div class="col-sm-3 mobiletitle">
+								<span class="pre-title">Стоимость</span>
+							</div>
+							<div class="col-sm-3">
+								<span class="ico-value">1 ETH = 1400 CCOIN</span>
+							</div>
+						</div>
+						<!-- <hr> -->
+						<div class="row">
+							<div class="col-sm-7 ico-description" style="float: none; margin-left: auto; margin-right: auto;">
+								<p>Последние 30,000,000 жетонов CCOIN будут использоваться для роста, в частности,
+								на маркетинг и награждение активных членов сообщества. Обратите внимание, что
+								предпродажные бонусы выплачиваются из этого (30,000,000 CCOIN) фонда.
+								</p>
+							</div>
+						<div class="row">
+							<div class="col-sm-9" style="float: none; margin-left: auto; margin-right: auto;"><img class="img-responsive" src="./COINTOKEN-HOME_files/ICOGraph.png"></div>
+						</div>
+						</div>
+					</div>
+					<style>
+						.mobiletitle{
+							display: none !important;
+						}
+						@media(max-width: 767px){
+							.pre-title.desktop{
+								display: none !important;
+							}
+							.mobiletitle{
+								display: block !important;
+							}
+						}
+					</style>
+					<h2 style="margin-top: 45px;">Особенности</h2><!-- Nav tabs -->
 					<ul class="nav nav-tabs" role="tablist">
 						<li class="active" role="presentation">
 							<a aria-controls="tab4" class="tab4" data-toggle="tab" href="https://cointoken.io/#tab4" role="tab">Глобальная партнерская программа CCOIN</a>
@@ -1686,64 +1753,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 				<div class="raised-block__progress"></div>		
 				<span class="softcapfringe" style="color:#ffffff">|</span>			 
 			</div> -->
-			<div class="container ico-details">
-				<div class="row">
-					<div class="col-sm-offset-2 col-sm-3">
-						<span class="pre-title desktop">Поставка</span>
-					</div>
-					<div class="col-sm-3">
-						<span class="pre-title desktop">Необходимый лимит</span>
-					</div>
-					<div class="col-sm-3">
-						<span class="pre-title desktop">Стоимость</span>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-sm-offset-2 col-sm-3 mobiletitle">
-						<span class="pre-title">Поставка</span>
-					</div>
-					<div class="col-sm-offset-2 col-sm-3">
-						<span class="ico-value">100,000,000 CCOIN</span>
-					</div>
-					<div class="col-sm-3 mobiletitle">
-						<span class="pre-title">Необходимый лимит</span>
-					</div>
-					<div class="col-sm-3">
-						<span class="ico-value">70,000,000 CCOIN</span>
-					</div>
-					<div class="col-sm-3 mobiletitle">
-						<span class="pre-title">Стоимость</span>
-					</div>
-					<div class="col-sm-3">
-						<span class="ico-value">1 ETH = 1400 CCOIN</span>
-					</div>
-				</div>
-				<!-- <hr> -->
-				<div class="row">
-					<div class="col-sm-7 ico-description" style="float: none; margin-left: auto; margin-right: auto;">
-						<p>Последние 30,000,000 жетонов CCOIN будут использоваться для роста, в частности,
-						на маркетинг и награждение активных членов сообщества. Обратите внимание, что
-						предпродажные бонусы выплачиваются из этого (30,000,000 CCOIN) фонда.
-						</p>
-					</div>
-				<div class="row">
-					<div class="col-sm-9" style="float: none; margin-left: auto; margin-right: auto;"><img class="img-responsive" src="./COINTOKEN-HOME_files/ICOGraph.png"></div>
-				</div>
-				</div>
-			</div>
-			<style>
-				.mobiletitle{
-					display: none !important;
-				}
-				@media(max-width: 767px){
-					.pre-title.desktop{
-						display: none !important;
-					}
-					.mobiletitle{
-						display: block !important;
-					}
-				}
-			</style>
+			
 		</section>
 		<div class="grey-bg">
 			<section class="home-aple-release-section dark-bg" id="roadmap">

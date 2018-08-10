@@ -1079,9 +1079,9 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 					<div><a class="btn btn-primary btn-primary-2 desktopButton" href="https://tokensale.cointoken.io/" target="_blank" style="color: #ffffff; outline: none !important; background-image: linear-gradient(0deg, #422ed9 0, #6938e6 50%, #6938e6); line-height: 1.0; padding: 18px 30px; width: 300px;">Join Whitelist</a><div> -->
 					<!-- <div><a class="btn btn-primary btn-primary-2 desktopButton" href="https://tokensale.cointoken.io/" target="_blank" style="color: #ffffff; outline: none !important; background-image: linear-gradient(0deg, #422ed9 0, #6938e6 50%, #6938e6); line-height: 1.0; padding: 18px 30px; width: auto;">JOIN WHITELIST</a><div> -->
 					<div class="row" style="margin-top: 20px; margin-bottom: 15px;">
-						<a class="btn btn-primary btn-primary-2 rewardsButton" href="http://www.cointoken.io/bounty" style="color: #ffffff;outline: none !important;background: #60e2cc;line-height: 1.0;padding: 18px 30px;width: 300px;margin: auto;font-size: 22px;margin-bottom: 10px;">Airdrop</a>
-						<a class="btn btn-primary btn-primary-1 btn-whitepaper" href="./COINTOKEN-HOME_files/ExecutiveSummary.pdf" target="_blank" style="line-height: 1.0; padding: 18px 30px; width: 300px; font-size: 22px;">Executive Summary</a>
-						<a class="btn btn-primary btn-primary-1 btn-whitepaper" href="./COINTOKEN-HOME_files/Whitepaper.pdf" target="_blank" style="line-height: 1.0; padding: 18px 30px; width: 300px; font-size: 22px;">Papel Branco</a>
+						<a class="btn btn-primary btn-primary-1 btn-whitepaper" href="./COINTOKEN-HOME_files/ExecutiveSummary.pdf" target="_blank" style="line-height: 1.0; padding: 18px 30px; width: 300px; font-size: 22px; border-radius: 18px">Executive Summary</a>
+						<a class="btn btn-primary btn-primary-1 btn-whitepaper" href="./COINTOKEN-HOME_files/Whitepaper.pdf" target="_blank" style="line-height: 1.0; padding: 18px 30px; width: 300px; font-size: 22px; border-radius: 18px">Papel Branco</a>
+						<a class="btn btn-primary btn-primary-2 rewardsButton" href="http://www.cointoken.io/bounty" style="color: #ffffff;outline: none !important;background: #60e2cc;line-height: 1.0;padding: 18px 30px;width: 300px;margin: auto;font-size: 22px;margin-bottom: 10px; border-radius: 18px">Airdrop</a>
 					</div>
 				</div>
 
@@ -1431,8 +1431,8 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 					</script>
 
 					<iframe src="https://www.orderbook.io/#/widget/ccoin" id="orderbook_iframe"
-					width="100%" height="551px" allowfullscreen="allowfullscreen"
-					frameborder="0" style="height: 551px; background: #4c4c4c !important; border-radius: 10px;"></iframe>
+					width="100%" height="700px" allowfullscreen="allowfullscreen"
+					frameborder="0" style="height: 700px; background: #000000 !important; border-radius: 10px;"></iframe>
 
 					<!-- Orderbook Widget Ends -->
 
@@ -1535,7 +1535,62 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 		<section class="home-features-section center" id="features">
 			<div class="container">
 				<div class="col-sm-12">
-					<h2>Features</h2><!-- Nav tabs -->
+					<div class="container ico-details">
+						<div class="row">
+							<div class="col-sm-offset-2 col-sm-3">
+								<span class="pre-title desktop">Fornecem</span>
+							</div>
+							<div class="col-sm-3">
+								<span class="pre-title desktop">Limite Requerido</span>
+							</div>
+							<div class="col-sm-3">
+								<span class="pre-title desktop">Value</span>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-offset-2 col-sm-3 mobiletitle">
+								<span class="pre-title">Fornecem</span>
+							</div>
+							<div class="col-sm-offset-2 col-sm-3">
+								<span class="ico-value">100,000,000 CCOIN</span>
+							</div>
+							<div class="col-sm-3 mobiletitle">
+								<span class="pre-title">Limite Requerido</span>
+							</div>
+							<div class="col-sm-3">
+								<span class="ico-value">70,000,000 CCOIN</span>
+							</div>
+							<div class="col-sm-3 mobiletitle">
+								<span class="pre-title">Value</span>
+							</div>
+							<div class="col-sm-3">	
+								<span class="ico-value">1 ETH = 1400 CCOIN</span>
+							</div>
+						</div>
+						<!-- <hr> -->
+						<div class="row">
+							<div class="col-sm-7 ico-description" style="float: none; margin-left: auto; margin-right: auto;">
+								<p>The last 30,000,000 CCOIN tokens will be used for growth, such as marketing and rewarding active community members. Note that the pre-sale bonuses are paid out of this (30,000,000 CCOIN) fund.</p>
+							</div>
+						<div class="row">
+							<div class="col-sm-9" style="float: none; margin-left: auto; margin-right: auto;"><img class="img-responsive" src="./COINTOKEN-HOME_files/ICOGraph.png"></div>
+						</div>
+						</div>
+					</div>
+					<style>
+						.mobiletitle{
+							display: none !important;
+						}
+						@media(max-width: 767px){
+							.pre-title.desktop{
+								display: none !important;
+							}
+							.mobiletitle{
+								display: block !important;
+							}
+						}
+					</style>
+					<h2 style="margin-top: 45px;">Features</h2><!-- Nav tabs -->
 					<ul class="nav nav-tabs" role="tablist">
 						<li class="active" role="presentation">
 							<a aria-controls="tab4" class="tab4" data-toggle="tab" href="https://cointoken.io/#tab4" role="tab">CCOIN Global Affiliate Program</a>
@@ -1656,61 +1711,6 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 					</style>
 				</div>
 			</div>
-			<div class="container ico-details">
-				<div class="row">
-					<div class="col-sm-offset-2 col-sm-3">
-						<span class="pre-title desktop">Fornecem</span>
-					</div>
-					<div class="col-sm-3">
-						<span class="pre-title desktop">Limite Requerido</span>
-					</div>
-					<div class="col-sm-3">
-						<span class="pre-title desktop">Value</span>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-sm-offset-2 col-sm-3 mobiletitle">
-						<span class="pre-title">Fornecem</span>
-					</div>
-					<div class="col-sm-offset-2 col-sm-3">
-						<span class="ico-value">100,000,000 CCOIN</span>
-					</div>
-					<div class="col-sm-3 mobiletitle">
-						<span class="pre-title">Limite Requerido</span>
-					</div>
-					<div class="col-sm-3">
-						<span class="ico-value">70,000,000 CCOIN</span>
-					</div>
-					<div class="col-sm-3 mobiletitle">
-						<span class="pre-title">Value</span>
-					</div>
-					<div class="col-sm-3">	
-						<span class="ico-value">1 ETH = 1400 CCOIN</span>
-					</div>
-				</div>
-				<!-- <hr> -->
-				<div class="row">
-					<div class="col-sm-7 ico-description" style="float: none; margin-left: auto; margin-right: auto;">
-						<p>The last 30,000,000 CCOIN tokens will be used for growth, such as marketing and rewarding active community members. Note that the pre-sale bonuses are paid out of this (30,000,000 CCOIN) fund.</p>
-					</div>
-				<div class="row">
-					<div class="col-sm-9" style="float: none; margin-left: auto; margin-right: auto;"><img class="img-responsive" src="./COINTOKEN-HOME_files/ICOGraph.png"></div>
-				</div>
-				</div>
-			</div>
-			<style>
-				.mobiletitle{
-					display: none !important;
-				}
-				@media(max-width: 767px){
-					.pre-title.desktop{
-						display: none !important;
-					}
-					.mobiletitle{
-						display: block !important;
-					}
-				}
-			</style>
 		</section>
 		<div class="grey-bg">
 			<section class="home-aple-release-section dark-bg" id="roadmap">
