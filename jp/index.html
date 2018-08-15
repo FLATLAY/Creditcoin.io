@@ -1106,103 +1106,6 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 			<div class="container">
 				<div class="col-sm-12">
 					
-					<!-- <h2>Creditcoinプライベートセール 10%ボーナスの終了まで：</h2> -->
-					<!-- <h2>June 30th 2018 11:59PM PST</h2> <br> -->
-					<!-- <div class="countdown-b">
-						<script type="text/javascript">
-						jQuery(document).ready(function() {
-						  jQuery("#circularcountdown_z3GOg85T").circularCountdown({
-						      startDate:"",
-						      endDate:"2018/07/01 6:59:00",
-						      timeZone:0,
-						      past:false,
-						      
-						      //Show-hide day, hour, minute, second
-						      showDay:true,
-						      showHour:true,
-						      showMinute:true,
-						      showSecond:true,
-						      
-						      //Margin between circles
-						      margin:10,
-						      
-						      //Diameters
-						      dayDiameter:0,
-						      hourDiameter:0,
-						      minuteDiameter:0,
-						      secondDiameter:0,
-						      
-						      //Circle BG width
-						      dayBgWidth:0,
-						      hourBgWidth:0,
-						      minuteBgWidth:0,
-						      secondBgWidth:0,
-						      
-						      //Circle width
-						      dayCircleWidth:0,
-						      hourCircleWidth:0,
-						      minuteCircleWidth:0,
-						      secondCircleWidth:0,
-						      
-						      //Circle BG color
-						      dayBgColor:"#cccccc",
-						      hourBgColor:"#cccccc",
-						      minuteBgColor:"#cccccc",
-						      secondBgColor:"#cccccc",
-						      
-						      //Circle color
-						      dayCircleColor:"#e8065c",
-						      hourCircleColor:"#e8065c",
-						      minuteCircleColor:"#e8065c",
-						      secondCircleColor:"#e8065c",
-						      
-						      //Counter font size
-						      dayCounterFontSize:60,
-						      hourCounterFontSize:60,
-						      minuteCounterFontSize:60,
-						      secondCounterFontSize:60,
-						      
-						      //Text font size
-						      dayTextFontSize:10,
-						      hourTextFontSize:10,
-						      minuteTextFontSize:10,
-						      secondTextFontSize:10,
-						      
-						      //Counter font color
-						      dayCounterFontColor:"#ffffff",
-						      hourCounterFontColor:"#ffffff",
-						      minuteCounterFontColor:"#ffffff",
-						      secondCounterFontColor:"#ffffff",
-						      
-						      //Text font color
-						      dayTextFontColor:"#ffffff",
-						      hourTextFontColor:"#ffffff",
-						      minuteTextFontColor:"#ffffff",
-						      secondTextFontColor:"#ffffff",
-						      
-						      //Texts
-						      dayText:"Days",
-						      hourText:"Hours",
-						      minuteText:"Minutes",
-						      secondText:"Seconds",
-						      
-						      //Texts top margin
-						      dayTextMarginTop:0,
-						      hourTextMarginTop:0,
-						      minuteTextMarginTop:0,
-						      secondTextMarginTop:0,
-						      
-						      //Timer on finish function
-						      onFinish:function(){}       });
-						});
-						</script>
-						<div class="circular-countdown" id="circularcountdown_z3GOg85T">
-						</div>
-					</div> -->
-					<!-- <div class="ico-period">
-						March 1st - 1st March 2018
-					</div> -->
-
 					<!-- https://coin-cart.firebaseio.com/storefronts/-L2bvPJ3pD3MvrWw9Oqc/stats.json -->
 					<script>
 						jQuery(document).ready(function(){
@@ -1211,7 +1114,6 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 								var totalQuantity = 70000000;
 								var claimedRatio = claimed/totalQuantity;
 								console.log("claimedRatio", claimedRatio);
-
 								var stringRatio = claimedRatio.toString();
 								// function moveDecimal(n) {
 								//   var l = n.toString().length-4;
@@ -1220,31 +1122,31 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 								// }
 								// console.log(moveDecimal(claimedRatio));
 								var finalStringRatio = Math.round(100*stringRatio.substring(0, 6)*100)/100 + "%";
-
-
 								jQuery(".raised-block__progress").css("width", finalStringRatio);
 								jQuery(".ratioClaimed").html('<strong>' + finalStringRatio+ '</strong><strong> of Tokens Claimed</strong>');
 							});
 						});
 					</script>
 					<!-- TEST BAR -->
-					<!-- <div class="caps"> -->
+					<div class="caps">
 						<!-- <span class="softcap">Soft Сap</span>
 						<span class="hardcap">Hard Сap</span> -->
-						<!-- <span class="ratioClaimed"><b>43% of Tokens Claimed</b></span>
+						<span class="ratioClaimed"><b>43% of Tokens Claimed</b></span>
 					</div>
 					<div class="raised-block__line">
 						<div class="raised-block__progress"></div>		
 						<span class="softcapfringe" style="color:#ffffff">|</span>			 
-					</div> -->
+					</div>
 
 					<style>
+						.ratioClaimed{
+							color: black;
+						}
 						.caps {
 							font-size: 16px;
 							position: relative;
 							top: 8px;
 							/*width: 70%;*/
-							color: #333;
 						}
 						.softcap {
 							padding-left:27%;
@@ -1265,7 +1167,6 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 						  margin-left: auto;
 						  margin-right: auto;
 						}
-
 						.raised-block__progress {
 						  width: 0%;
 						  height: 25px;
@@ -1274,7 +1175,6 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 						  box-shadow: inset 0px 1px 0 0 rgba(255, 255, 255, 0.8);
 						  border-radius: 25px;
 						}
-
 						.raised-block__values {
 						  display: flex;
 						  justify-content: space-between;
@@ -1289,6 +1189,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 						  left: 0;
 						}
 					</style>
+					<!-- CoinCart progress bar ends -->
 
 					<!-- Orderbook Widget Begins -->
 					<script type="application/javascript">
@@ -1431,7 +1332,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 
 					<iframe src="https://www.orderbook.io/#/widget/ccoin" id="orderbook_iframe"
 					width="100%" height="650px" allowfullscreen="allowfullscreen"
-					frameborder="0" style="height: 650px; border-radius: 10px;"></iframe>
+					frameborder="0" style="height: 650px; border-radius: 10px; margin-top: 10px"></iframe>
 
 					<!-- Orderbook Widget Ends -->
 
