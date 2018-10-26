@@ -381,9 +381,9 @@ Frontpage
 ====================================================================
 */
 .home-hero-section{
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), black url(./background.jpg) no-repeat center;  
+    /*background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), black url(./background.jpg) no-repeat center;  */
     background-size: cover;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 1);
     text-align: center;    
     color: #fff;    
     padding: 220px 0 300px 0;
