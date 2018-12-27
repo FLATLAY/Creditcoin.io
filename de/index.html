@@ -197,13 +197,18 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 
 				.telegramMobile{
 					display: none;
-					position: absolute;
-					left: 15px;
-					top: 30px;
+					/*position: absolute;*/
+					position: fixed;
+					/*left: 15px;*/
+					left: 14px;
+					/*top: 30px;*/
+					bottom: 75px;
 					background: url(./COINTOKEN-HOME_files/telegram.png) no-repeat 0 0;
-    				background-size: 45px auto;
-    				width: 45px;
-    				height: 45px;
+    				/*background-size: 45px auto;*/
+    				background-size: contain;
+    				width: 54px;
+    				height: 54px;
+    				z-index: 9999;
 				}
 				@media(max-width: 767px){
 					.rewardsButtonMobile{

@@ -153,7 +153,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			<!-- <a>
 				<img id="ratingsBadge" src="../COINTOKEN-HOME_files/ratings.png"/>
 			</a> -->
-				<a class="btn btn-primary btn-primary-2 rewardsButton rewardsButtonMobile" target="_blank" href="https://tokensale.cointoken.io/signup?ref=fintech-cointoken" style="color: #ffffff; outline: none !important; background-image: linear-gradient(0deg, #422ed9 0, #6938e6 50%, #6938e6); line-height: 45px; padding: 18px 30px; width: 200px; margin: auto; display: block; font-size: 15px; height: 45px; padding: 0; margin-top: 7px; min-width: unset;"><b>今なら10%のボーナスを獲得</b></a>
+				<!-- <a class="btn btn-primary btn-primary-2 rewardsButton rewardsButtonMobile" target="_blank" href="https://tokensale.cointoken.io/signup?ref=fintech-cointoken" style="color: #ffffff; outline: none !important; background-image: linear-gradient(0deg, #422ed9 0, #6938e6 50%, #6938e6); line-height: 45px; padding: 18px 30px; width: 200px; margin: auto; display: block; font-size: 15px; height: 45px; padding: 0; margin-top: 7px; min-width: unset;"><b>今なら10%のボーナスを獲得</b></a> -->
 				<a class="telegramMobile" href="https://t.me/joinchat/GWRQaRI6YfuhR_atPb6mRw" target="_blank"></a>
 			<style>
 				#ratingsBadge{
@@ -181,13 +181,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 				.telegramMobile{
 					display: none;
-					position: absolute;
-					left: 15px;
-					top: 30px;
-					background: url(../COINTOKEN-HOME_files/telegram.png) no-repeat 0 0;
-    				background-size: 45px auto;
-    				width: 45px;
-    				height: 45px;
+					/*position: absolute;*/
+					position: fixed;
+					/*left: 15px;*/
+					left: 14px;
+					/*top: 30px;*/
+					bottom: 75px;
+					background: url(./COINTOKEN-HOME_files/telegram.png) no-repeat 0 0;
+    				/*background-size: 45px auto;*/
+    				background-size: contain;
+    				width: 54px;
+    				height: 54px;
+    				z-index: 9999;
 				}
 
 				@media(max-width: 767px){

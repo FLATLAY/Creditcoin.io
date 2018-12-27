@@ -1844,6 +1844,7 @@ background-color: black;
 }
 .header .navbar .menu-main-menu-container {
     float: none;
+    /*margin-top: -50px;*/
 }
 .page-template-front-page .header, .page-template-presale-page .header {
     left: 0;
