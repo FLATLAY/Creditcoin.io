@@ -124,7 +124,7 @@
 	  src="https://www.facebook.com/tr?id=831855593672287&ev=PageView&noscript=1"
 	/></noscript>
 	<!-- End Facebook Pixel Code -->
-
+	<script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="20a101f9-d7b0-4e56-810d-330b6b93661b";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
 </head>
 <body>
 	<!-- Google Tag Manager (noscript) -->
@@ -179,13 +179,18 @@
 
 				.telegramMobile{
 					display: none;
-					position: absolute;
-					left: 15px;
-					top: 30px;
+					/*position: absolute;*/
+					position: fixed;
+					/*left: 15px;*/
+					left: 14px;
+					/*top: 30px;*/
+					bottom: 75px;
 					background: url(../COINTOKEN-HOME_files/telegram.png) no-repeat 0 0;
-    				background-size: 45px auto;
-    				width: 45px;
-    				height: 45px;
+    				/*background-size: 45px auto;*/
+    				background-size: contain;
+    				width: 54px;
+    				height: 54px;
+    				z-index: 9999;
 				}
 
 				@media(max-width: 767px){
