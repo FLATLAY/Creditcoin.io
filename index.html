@@ -227,15 +227,17 @@ function gtag_report_conversion(url) {
 					/*position: absolute;*/
 					position: fixed;
 					/*left: 15px;*/
-					left: 14px;
+					/*left: 14px;*/
 					/*top: 30px;*/
-					bottom: 75px;
+					/*bottom: 75px;*/
 					background: url(./COINTOKEN-HOME_files/telegram.png) no-repeat 0 0;
     				/*background-size: 45px auto;*/
     				background-size: contain;
     				width: 54px;
     				height: 54px;
     				z-index: 9999;
+    				right: 15px;
+    				bottom: 17px;
 				}
 				@media(max-width: 767px){
 					.rewardsButtonMobile{
@@ -3304,7 +3306,7 @@ function gtag_report_conversion(url) {
 			bottom: 15px;
 			left: 0;
 			right: 0;
-			z-index: 9999;
+			z-index: 9;
 			min-height: 115px;
 		}
 		#consentcontainer{
@@ -3315,7 +3317,7 @@ function gtag_report_conversion(url) {
 			height: 100%;
 			color: white;
 			display: none;
-			z-index: 99999;
+			z-index: 99;
 			display: flex;
 			padding: 20px;
 			border-radius: 5px;
@@ -3346,6 +3348,10 @@ function gtag_report_conversion(url) {
 			#consentflag{
 				margin: auto;
 			}
+			#consentbutton{
+			width: 150px;
+			margin: auto;
+		}
 		}
 	</style>
 	<script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
