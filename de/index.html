@@ -1126,28 +1126,6 @@ function gtag_report_conversion(url) {
 		<section class="home-timer-section grey-bg center">
 			<div class="container">
 				<div class="col-sm-12">
-					
-					<!-- https://coin-cart.firebaseio.com/storefronts/-L2bvPJ3pD3MvrWw9Oqc/stats.json -->
-					<script>
-						jQuery(document).ready(function(){
-							jQuery.getJSON("https://coin-cart.firebaseio.com/storefronts/-L2bvPJ3pD3MvrWw9Oqc/stats.json", function(data){
-								var claimed = data.claimedQuantity + data.reservedQuantity;
-								var totalQuantity = 70000000;
-								var claimedRatio = claimed/totalQuantity;
-								console.log("claimedRatio", claimedRatio);
-								var stringRatio = claimedRatio.toString();
-								// function moveDecimal(n) {
-								//   var l = n.toString().length-4;
-								//   var v = n/Math.pow(10, l);
-								//   return v;
-								// }
-								// console.log(moveDecimal(claimedRatio));
-								var finalStringRatio = Math.round(100*stringRatio.substring(0, 6)*100)/100 + "%";
-								jQuery(".raised-block__progress").css("width", finalStringRatio);
-								jQuery(".ratioClaimed").html('<strong>' + finalStringRatio+ '</strong><strong> of Tokens Claimed</strong>');
-							});
-						});
-					</script>
 					<!-- TEST BAR -->
 				<!-- 	<div class="caps">
 						<span><b>43.86% of Tokens Claimed</b></span>
