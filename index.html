@@ -3387,17 +3387,17 @@ function gtag_report_conversion(url) {
 	<script>
 		jQuery(document).ready(function(){
 			if (typeof jQuery.cookie('cointokenconsent') === 'undefined'){ //if cookie doesn't exist show container
-				jQuery('#consentcontainer').show();
+				jQuery('#consentparent').show();
 				jQuery("#consentbutton").on('click',function(){
-					jQuery("#consentcontainer").fadeOut(300);
+					jQuery("#consentparent").fadeOut(300);
 					Cookies.set('cointokenconsent', 'granted', { path: '/' });
 					console.log(Cookies.get());
 				});
 			} else {
-				jQuery('#consentcontainer').hide();
+				jQuery('#consentparent').hide();
 			}
 			jQuery("#consentclose").on('click',function(){
-				jQuery("#consentcontainer").fadeOut(300);
+				jQuery("#consentparent").fadeOut(300);
 			});
 		});
 	</script>
